@@ -5,6 +5,8 @@ pubDate: "Mar 10 2023"
 heroImage: "../../assets/thumbnails/HuvKTzhlVpo.jpg"
 videoId: "HuvKTzhlVpo"
 videoUrl: "https://www.youtube.com/watch?v=HuvKTzhlVpo"
+colorLeft: "#b27334"
+colorRight: "#bf7a38"
 ---
 
 it's an incredible

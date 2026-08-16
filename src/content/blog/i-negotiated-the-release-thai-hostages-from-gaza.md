@@ -5,6 +5,8 @@ pubDate: "May 14 2024"
 heroImage: "../../assets/thumbnails/BznL4d9BCGA.jpg"
 videoId: "BznL4d9BCGA"
 videoUrl: "https://www.youtube.com/watch?v=BznL4d9BCGA"
+colorLeft: "#2e9e58"
+colorRight: "#719e2e"
 ---
 
 we're About to finally Get The

@@ -8,7 +8,8 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & { id: string };
 
-const { title, description, pubDate, updatedDate, heroImage, id } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, videoId, id, colorLeft, colorRight } =
+	Astro.props;
 ---
 
 <html lang="en">
@@ -28,6 +29,53 @@ const { title, description, pubDate, updatedDate, heroImage, id } = Astro.props;
 				margin: 0 auto;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
+			}
+			.video-embed {
+				position: relative;
+				width: 100%;
+				max-width: 1020px;
+				aspect-ratio: 16 / 9;
+				margin: 0 auto;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: var(--box-shadow);
+				background: #000;
+			}
+			.video-embed img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				display: block;
+				cursor: pointer;
+			}
+			.video-embed iframe {
+				width: 100%;
+				height: 100%;
+				border: 0;
+				display: block;
+			}
+			.video-embed .play-button {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 68px;
+				height: 48px;
+				background: rgba(0, 0, 0, 0.75);
+				border-radius: 14px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				pointer-events: none;
+				transition: background 0.2s ease;
+			}
+			.video-embed:hover .play-button {
+				background: rgb(200, 0, 0);
+			}
+			.video-embed .play-button svg {
+				width: 24px;
+				height: 24px;
+				fill: #fff;
 			}
 			.prose {
 				width: 720px;
@@ -52,22 +100,80 @@ const { title, description, pubDate, updatedDate, heroImage, id } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.ambient-glow {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 900px;
+				max-height: 70vh;
+				overflow: hidden;
+				pointer-events: none;
+				z-index: 0;
+				/* fade the whole layer to transparent before it hits max-height,
+				   instead of hard-cutting the blurred blobs */
+				mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
+			}
+			.ambient-glow::before,
+			.ambient-glow::after {
+				content: '';
+				position: absolute;
+				top: -30%;
+				width: 70%;
+				height: 160%;
+				background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
+				opacity: 0.8;
+			}
+			.ambient-glow::before {
+				left: -20%;
+				--glow-color: var(--color-left);
+			}
+			.ambient-glow::after {
+				right: -20%;
+				--glow-color: var(--color-right);
+			}
+			header,
+			main {
+				position: relative;
+				z-index: 1;
+			}
 		</style>
 	</head>
 
 	<body>
+		{colorLeft && colorRight && (
+			<div class="ambient-glow" style={`--color-left:${colorLeft}; --color-right:${colorRight};`} />
+		)}
 		<Header />
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && (
-						<Image
-							width={1020}
-							height={510}
-							src={heroImage}
-							alt=""
-							transition:name={`thumb-${id}`}
-						/>
+					{videoId ? (
+						<div class="video-embed" data-video-id={videoId}>
+							{heroImage && (
+								<Image
+									width={1020}
+									height={510}
+									src={heroImage}
+									alt={`Play video: ${title}`}
+									transition:name={`thumb-${id}`}
+								/>
+							)}
+							<div class="play-button" aria-hidden="true">
+								<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+							</div>
+						</div>
+					) : (
+						heroImage && (
+							<Image
+								width={1020}
+								height={510}
+								src={heroImage}
+								alt=""
+								transition:name={`thumb-${id}`}
+							/>
+						)
 					)}
 				</div>
 				<div class="prose">
@@ -90,5 +196,32 @@ const { title, description, pubDate, updatedDate, heroImage, id } = Astro.props;
 			</article>
 		</main>
 		<Footer />
+		<script>
+			function initVideoEmbeds() {
+				document.querySelectorAll<HTMLElement>('.video-embed[data-video-id]').forEach((el) => {
+					if (el.dataset.wired) return;
+					el.dataset.wired = 'true';
+					el.addEventListener('click', () => {
+						const videoId = el.dataset.videoId;
+						if (!videoId) return;
+						const iframe = document.createElement('iframe');
+						iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1`;
+						iframe.title = 'YouTube video player';
+						iframe.allow =
+							'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+						iframe.allowFullscreen = true;
+						// Astro's scoped styles don't reach elements created via JS,
+						// so size it explicitly instead of relying on the .video-embed iframe rule.
+						iframe.style.width = '100%';
+						iframe.style.height = '100%';
+						iframe.style.border = '0';
+						iframe.style.display = 'block';
+						el.replaceChildren(iframe);
+					});
+				});
+			}
+			initVideoEmbeds();
+			document.addEventListener('astro:page-load', initVideoEmbeds);
+		</script>
 	</body>
 </html>

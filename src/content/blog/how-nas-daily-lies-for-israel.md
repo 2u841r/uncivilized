@@ -5,6 +5,8 @@ pubDate: "Oct 26 2022"
 heroImage: "../../assets/thumbnails/J-d3t-bUcgE.jpg"
 videoId: "J-d3t-bUcgE"
 videoUrl: "https://www.youtube.com/watch?v=J-d3t-bUcgE"
+colorLeft: "#9e572e"
+colorRight: "#9e442e"
 ---
 
 hi my name is Salem Barahmeh and this is

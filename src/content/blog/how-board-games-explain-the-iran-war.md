@@ -5,6 +5,8 @@ pubDate: "Mar 21 2026"
 heroImage: "../../assets/thumbnails/mKYZNjW_KkU.jpg"
 videoId: "mKYZNjW_KkU"
 videoUrl: "https://www.youtube.com/watch?v=mKYZNjW_KkU"
+colorLeft: "#9e482e"
+colorRight: "#9e552e"
 ---
 
 Chaos.

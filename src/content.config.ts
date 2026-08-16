@@ -16,6 +16,8 @@ const blog = defineCollection({
 			heroImage: z.optional(image()),
 			videoId: z.string().optional(),
 			videoUrl: z.string().optional(),
+			colorLeft: z.string().optional(),
+			colorRight: z.string().optional(),
 		}),
 });
 

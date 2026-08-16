@@ -5,6 +5,8 @@ pubDate: "Dec 28 2024"
 heroImage: "../../assets/thumbnails/EgUE0mA0Fis.jpg"
 videoId: "EgUE0mA0Fis"
 videoUrl: "https://www.youtube.com/watch?v=EgUE0mA0Fis"
+colorLeft: "#9e362e"
+colorRight: "#9e512e"
 ---
 
 [Music]

@@ -5,6 +5,8 @@ pubDate: "Dec 26 2025"
 heroImage: "../../assets/thumbnails/4oJ7Z2urJW4.jpg"
 videoId: "4oJ7Z2urJW4"
 videoUrl: "https://www.youtube.com/watch?v=4oJ7Z2urJW4"
+colorLeft: "#9e3f2e"
+colorRight: "#9e2e42"
 ---
 
 The sharing of biased and false
