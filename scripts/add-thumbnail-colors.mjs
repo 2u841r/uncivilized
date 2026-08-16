@@ -61,12 +61,58 @@ function hslToRgb(h, s, l) {
 }
 
 async function avgColorHex(imagePath, left, width, height) {
-	const { data } = await sharp(imagePath)
+	// Neither a flat average (mixed hues wash toward grey) nor "most common
+	// pixel" (a large plain-colored background wins outright, drowning out a
+	// smaller vivid logo) gives the right answer here. Instead, weight each
+	// pixel's contribution to the average by its own saturation, so vivid
+	// pixels (the logo) pull the result while flat/dark background pixels
+	// contribute almost nothing — same idea as Vibrant.js/Spotify Canvas.
+	const { data, info } = await sharp(imagePath)
 		.extract({ left, top: 0, width, height })
-		.resize(1, 1)
+		.resize(60, null, { fit: 'inside' })
 		.raw()
 		.toBuffer({ resolveWithObject: true });
-	const [r, g, b] = data;
+
+	const channels = info.channels;
+	let wr = 0;
+	let wg = 0;
+	let wb = 0;
+	let totalWeight = 0;
+	let sr = 0;
+	let sg = 0;
+	let sb = 0;
+	let count = 0;
+
+	for (let i = 0; i < data.length; i += channels) {
+		const r = data[i];
+		const g = data[i + 1];
+		const b = data[i + 2];
+		const [, s] = rgbToHsl(r, g, b);
+		const weight = s * s; // emphasize saturated pixels more
+		wr += r * weight;
+		wg += g * weight;
+		wb += b * weight;
+		totalWeight += weight;
+		sr += r;
+		sg += g;
+		sb += b;
+		count += 1;
+	}
+
+	let r;
+	let g;
+	let b;
+	if (totalWeight > count * 0.02) {
+		r = wr / totalWeight;
+		g = wg / totalWeight;
+		b = wb / totalWeight;
+	} else {
+		// whole region is basically greyscale, fall back to plain average
+		r = sr / count;
+		g = sg / count;
+		b = sb / count;
+	}
+
 	const [h, s, l] = rgbToHsl(r, g, b);
 	const boostedS = Math.min(1, Math.max(s, 0.55));
 	const boostedL = Math.min(0.6, Math.max(0.4, l));

@@ -5,8 +5,8 @@ pubDate: "Feb 17 2025"
 heroImage: "../../assets/thumbnails/IcVR3qwdkgM.jpg"
 videoId: "IcVR3qwdkgM"
 videoUrl: "https://www.youtube.com/watch?v=IcVR3qwdkgM"
-colorLeft: "#c78b3c"
-colorRight: "#a0592f"
+colorLeft: "#be8237"
+colorRight: "#c46539"
 ---
 
 [Trump: If we could find the right piece of land

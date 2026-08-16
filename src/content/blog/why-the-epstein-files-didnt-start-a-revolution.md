@@ -5,8 +5,8 @@ pubDate: "Apr 21 2026"
 heroImage: "../../assets/thumbnails/qQU8HBzKpTU.jpg"
 videoId: "qQU8HBzKpTU"
 videoUrl: "https://www.youtube.com/watch?v=qQU8HBzKpTU"
-colorLeft: "#9e5d2e"
-colorRight: "#9e4b2e"
+colorLeft: "#9e4f2e"
+colorRight: "#9e442e"
 ---
 
 3 and a half million documents

@@ -6,7 +6,7 @@ heroImage: "../../assets/thumbnails/38qCfrVeHxo.jpg"
 videoId: "38qCfrVeHxo"
 videoUrl: "https://www.youtube.com/watch?v=38qCfrVeHxo"
 colorLeft: "#d19361"
-colorRight: "#d17161"
+colorRight: "#d17f61"
 ---
 
 you've probably been seeing Palestine

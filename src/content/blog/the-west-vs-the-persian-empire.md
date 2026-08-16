@@ -5,8 +5,8 @@ pubDate: "Jun 26 2025"
 heroImage: "../../assets/thumbnails/ej4buuj0ofk.jpg"
 videoId: "ej4buuj0ofk"
 videoUrl: "https://www.youtube.com/watch?v=ej4buuj0ofk"
-colorLeft: "#9e602e"
-colorRight: "#9e522e"
+colorLeft: "#9e582e"
+colorRight: "#9e542e"
 ---
 
 There's a feud between Iran and the West

@@ -5,8 +5,8 @@ pubDate: "Apr 22 2025"
 heroImage: "../../assets/thumbnails/aVrzdiUHkww.jpg"
 videoId: "aVrzdiUHkww"
 videoUrl: "https://www.youtube.com/watch?v=aVrzdiUHkww"
-colorLeft: "#9e402e"
-colorRight: "#922e9e"
+colorLeft: "#a3492f"
+colorRight: "#a83224"
 ---
 
 [Music]

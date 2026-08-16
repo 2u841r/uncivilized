@@ -5,8 +5,8 @@ pubDate: "Apr 02 2025"
 heroImage: "../../assets/thumbnails/IAa2iym2Wv0.jpg"
 videoId: "IAa2iym2Wv0"
 videoUrl: "https://www.youtube.com/watch?v=IAa2iym2Wv0"
-colorLeft: "#769e2e"
-colorRight: "#c38f39"
+colorLeft: "#9e632e"
+colorRight: "#9e952e"
 ---
 
 October

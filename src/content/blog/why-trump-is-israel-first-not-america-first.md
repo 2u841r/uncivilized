@@ -5,8 +5,8 @@ pubDate: "Jun 22 2025"
 heroImage: "../../assets/thumbnails/PrZY_4HSPQM.jpg"
 videoId: "PrZY_4HSPQM"
 videoUrl: "https://www.youtube.com/watch?v=PrZY_4HSPQM"
-colorLeft: "#384bbf"
-colorRight: "#9e552e"
+colorLeft: "#2736a5"
+colorRight: "#b0361c"
 ---
 
 Should the US join Israel's war on Iran?

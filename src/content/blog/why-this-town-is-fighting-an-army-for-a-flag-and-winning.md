@@ -5,8 +5,8 @@ pubDate: "Aug 18 2022"
 heroImage: "../../assets/thumbnails/zQuQVZM0PLQ.jpg"
 videoId: "zQuQVZM0PLQ"
 videoUrl: "https://www.youtube.com/watch?v=zQuQVZM0PLQ"
-colorLeft: "#9e632e"
-colorRight: "#c38239"
+colorLeft: "#9e672e"
+colorRight: "#c6873a"
 ---
 
 [Music]

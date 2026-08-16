@@ -5,8 +5,8 @@ pubDate: "Jun 18 2025"
 heroImage: "../../assets/thumbnails/foD-MwTxqGk.jpg"
 videoId: "foD-MwTxqGk"
 videoUrl: "https://www.youtube.com/watch?v=foD-MwTxqGk"
-colorLeft: "#2e9e44"
-colorRight: "#9e552e"
+colorLeft: "#297ca3"
+colorRight: "#9e852e"
 ---
 
 No one is telling you the real reason of

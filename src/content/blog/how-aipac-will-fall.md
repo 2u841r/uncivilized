@@ -5,8 +5,8 @@ pubDate: "May 07 2026"
 heroImage: "../../assets/thumbnails/8KCLnO-rtuQ.jpg"
 videoId: "8KCLnO-rtuQ"
 videoUrl: "https://www.youtube.com/watch?v=8KCLnO-rtuQ"
-colorLeft: "#ae6632"
-colorRight: "#4580c9"
+colorLeft: "#9e582e"
+colorRight: "#285ea5"
 ---
 
 Cigarettes were more deeply ingrained in

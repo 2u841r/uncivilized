@@ -5,8 +5,8 @@ pubDate: "Aug 06 2023"
 heroImage: "../../assets/thumbnails/xq1ofg8VxkY.jpg"
 videoId: "xq1ofg8VxkY"
 videoUrl: "https://www.youtube.com/watch?v=xq1ofg8VxkY"
-colorLeft: "#9e432e"
-colorRight: "#9e582e"
+colorLeft: "#aa3b22"
+colorRight: "#9e542e"
 ---
 
 there is an excruciating sense of

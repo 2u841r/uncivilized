@@ -5,8 +5,8 @@ pubDate: "Nov 20 2024"
 heroImage: "../../assets/thumbnails/DUyUm1yEYVM.jpg"
 videoId: "DUyUm1yEYVM"
 videoUrl: "https://www.youtube.com/watch?v=DUyUm1yEYVM"
-colorLeft: "#9e9e2e"
-colorRight: "#9e7c2e"
+colorLeft: "#a59f2c"
+colorRight: "#9e802e"
 ---
 
 the Holocaust wasn't Germany's first genocide&nbsp;

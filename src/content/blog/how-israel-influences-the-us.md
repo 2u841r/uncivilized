@@ -5,8 +5,8 @@ pubDate: "May 01 2025"
 heroImage: "../../assets/thumbnails/37tiZV4HHGk.jpg"
 videoId: "37tiZV4HHGk"
 videoUrl: "https://www.youtube.com/watch?v=37tiZV4HHGk"
-colorLeft: "#b17b34"
-colorRight: "#b17934"
+colorLeft: "#6180d1"
+colorRight: "#604ccb"
 ---
 
 My plan to dismantle the deep state and

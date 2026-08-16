@@ -5,8 +5,8 @@ pubDate: "Nov 27 2024"
 heroImage: "../../assets/thumbnails/0JQ_2of4OHQ.jpg"
 videoId: "0JQ_2of4OHQ"
 videoUrl: "https://www.youtube.com/watch?v=0JQ_2of4OHQ"
-colorLeft: "#b55134"
-colorRight: "#aa4d31"
+colorLeft: "#a74227"
+colorRight: "#a64126"
 ---
 
 India really loves Israel and the

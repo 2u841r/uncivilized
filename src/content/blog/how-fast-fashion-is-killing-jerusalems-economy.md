@@ -5,8 +5,8 @@ pubDate: "Apr 20 2023"
 heroImage: "../../assets/thumbnails/gxiPR75j3wc.jpg"
 videoId: "gxiPR75j3wc"
 videoUrl: "https://www.youtube.com/watch?v=gxiPR75j3wc"
-colorLeft: "#a77130"
-colorRight: "#9e492e"
+colorLeft: "#cca739"
+colorRight: "#9e4b2e"
 ---
 
 [Music]
