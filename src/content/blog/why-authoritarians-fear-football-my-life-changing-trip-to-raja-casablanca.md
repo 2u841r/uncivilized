@@ -1,0 +1,292 @@
+---
+title: "Why Authoritarians Fear Football: My Life Changing Trip to Raja Casablanca"
+description: "Support uncivilized 's work through Patreon: https://www.patreon.com/uncivilizedmedia Moroccan football culture was always political, from playing a pivotal role in anti-colonial resistance against France to giving a voice to people today who feel marginalized and unheard. Football is often a reflec"
+pubDate: "Mar 02 2024"
+heroImage: "../../assets/thumbnails/jKbuD2Oj_y4.jpg"
+videoId: "jKbuD2Oj_y4"
+videoUrl: "https://www.youtube.com/watch?v=jKbuD2Oj_y4"
+---
+
+the atas Lions as the world gathered to
+watch the beautiful game they were
+mesmerized by a team that defied
+expectations
+Miracle For the First Time In The
+History of the World Cup there will be
+an African nation in the
+semifinals game after game they beat
+footballing
+Giants captured the hearts and minds of
+people
+everywhere at the heart of this were the
+Moroccan
+fans the rocked stadiums with their
+infectious Spirit an unrelenting chance
+that never stopped for 90
+minutes but where does this beautiful
+football culture come
+from they're shooting at the police
+right now the story I uncovered in
+Morocco Co gave me an answer that blew
+me
+away singing
+but my trip was cut short and it became
+a 24-hour emotional roller coaster
+because little did I know the day I
+arrived would change my life
+forever
+[Music]
+you always hold back this this this idea
+of like hope to manage your expectations
+about whether Liberation would come in
+our lifetime seeing that happen as I
+woke up
+um
+was I think incredibly
+moving but also shocking and and I think
+all of us were a bit in in disbelief you
+know Israel has a this this doctrine of
+deterrence which is always you know
+meeting anything with overwhelming force
+and destruction to the point where they
+want to decimate destroy kill so people
+wouldn't think twice about attacking
+them again on October 7th in on that
+morning in the hotel room I knew
+something big was coming and I I think
+so the
+the the feelings of shock and disbelief
+and this idea of Liberation might be
+coming were quickly replaced with Dread
+and fear and sadness about what was to
+come and so I
+really I was thinking about leaving
+Morocco right away I did I came there to
+to to do a
+shoot and I didn't know if I wanted to
+continue I I I was thinking about going
+home but I couldn't go home cuz the
+borders were closed didn't know like
+you're not in in in the mood to go out
+and film and talk about other things
+that are not Palestine I decided on
+October 8th that I would put my phone
+down and I would go
+film um mainly as a
+distraction uh and this is the journey I
+went on
+[Music]
+fore
+this is Hassan and that's basma they're
+showing me around this historic
+neighborhood in Casablanca with this all
+took
+[Music]
+place
+[Music]
+this neighborhood is special in Moroccan
+football history it's where Raja
+kasablanka was founded and the team
+we're going to watch play later
+today if you like our videos and want to
+help us share more stories from around
+the world you can sign up to our patreon
+on there you will get exclusive content
+behind the scenes footage and join our
+un civilized Community the link is in
+the
+[Music]
+description
+and you can see all the all the photos
+of the teams on the wall the club has
+become famous across the
+world especially for its rivalry with
+fellow casablanc team or dad and the
+passionate full-blown performances each
+team's alra fans put on when they face
+[Applause]
+off but the club's history is isn't as
+well known it was actually founded in
+1949 as a space for the neighborhood's
+working-class youth see back then
+Morocco was colonized by the French each
+day scores of riers are rounded up but
+their arrest only serves to Fan the
+flame of hatred the Moroccans hold for
+the French in Casablanca the heartb of
+resistance was this neighborhood that
+sulan
+it's been political since its
+Inception and it continues to
+[Applause]
+be what is it about football here that
+makes it so
+[Music]
+political
+it makes sense when you consider that
+political expression in Morocco can
+be difficult under the monarchy while
+the country deals with its fair share of
+problems from corruption to high levels
+of youth
+unemployment so the stadium becomes the
+political pulse and Pulpit of the
+country the first step to understanding
+this football culture is to meet the
+people behind these performances in the
+stadiums raja's Ultra fans the green
+boys
+[Music]
+it didn't take long to find the green
+boy graffiti in the
+[Music]
+neighborhood GRE green
+[Music]
+Bo we met these young guys who honestly
+when they saw me with a camera were so
+suspicious and skeptical and
+menacing
+and then Hassan went up to them and said
+oh he's Palestinian and the the entire
+attitude
+changed the green
+boys Smiles laughter jokes green
+boys he and then they took me up to
+their
+home
+fore
+foree
+spee
+[Applause]
+this chant is one of Roger's most
+[Applause]
+famous
+this song has been popular at morocc and
+football games for years and even at the
+World
+Cup most Moroccans are and have been
+passionately Pro
+Palestine and this is despite the
+Moroccan government's normalization with
+Israel in 2020 in exchange the US has
+recognized Morocco's sovereignty over
+the disputed western saharaa region a
+territory occupied in 1975 demonstrators
+in Morocco have denounced the recent
+normalization of relations between their
+country and
+[Music]
+Israel it is because of Morocco's
+history of resistance and fighting for
+Liberation and its continued struggles
+with oppression and colonialism that the
+people stand in such strong solidarity
+with
+Palestine the love for Palestine was
+even more palpable as I walked through
+the neighborhood on October
+8th
+EX
+it shows you that there is that
+fundamental
+solidarity
+um I think with people who face some
+type of Oppression right whether it's by
+their own government or by an
+external uh occupier colonizer there is
+that level of solidarity and and to be
+honest both the feeling of focusing on
+the story and being met with so much
+love
+really gave me so much
+energy but then I got back to the hotel
+we were going to the Raj game in the
+evening and I had some time to come home
+and rest and obviously the first thing I
+did was go on my
+phone emotionally just completely was
+shattered again no desire to go to the
+game and I just wanted to go home bessma
+told me a lot of her friends were coming
+um and that they got us a ticket and so
+I felt like it was important to go
+important to capture that and so I ended
+up going
+and it was um it was quite the
+experience wow just to get in here was
+wild I mean there have fans in the ultas
+who are sitting on the edge of the
+stadium right now because there are no
+seats the Ultras are hack they are
+standing and it's just an electric
+atmosphere so the match has started and
+it's already
+[Music]
+chaos but the Ultras are not singing and
+there's a a lot of palan flags more than
+usual and apparently for the first 10
+minutes they're just waving their Flags
+in solidarity with Palestine which is a
+very strong political
+statement
+[Music]
+[Applause]
+[Music]
+[Applause]
+I I asked about the tfos which are works
+of art that usually are lifted in unison
+by the Ultras and I was told they were
+banned because they're usually
+anti-authority which is really
+interesting just shows you the political
+nature the rebellious nature of of these
+ultas
+Raja is banned from shooting flares and
+so in defiance they threw flares across
+at the
+police you can barely see the
+pitch straight
+what what a sign of
+[Applause]
+defiance
+[Applause]
+Happ
+singing
+[Applause]
+it's hard for me to describe the level
+of
+emotions I was uh feeling it was really
+a roller coaster on one side you're
+incredibly
+sad and and dreading what's happening
+and what's about to come but at the same
+time you see I think in that point of my
+life the largest expression of
+solidarity I've ever seen in front of me
+I've never been around 60,000 people
+singing for Palestine before ever and to
+be there on October 8th at night was so
+[Music]
+overwhelming
+[Applause]
+to
+see obviously the Ultras prend to see
+fathers with their kids see flags all
+over the
+stadium it was quite a special moment uh
+and I think for that 20 minutes it felt
+again I was like in a different
+Universe football in Morocco is so
+fundamental to the culture of the
+country it's part of identity it's part
+of being able to express yourself it's
+how you show
+Defiance uh how you try to mobilize for
+change um and it's the pulse and Pulpit
+of the
+people and so you see that from D sulan
+all the way to a World Cup stadium in
+Qatar it's the same thread all the way
+[Applause]
+through
+what

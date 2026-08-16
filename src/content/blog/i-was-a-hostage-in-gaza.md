@@ -1,0 +1,310 @@
+---
+title: "I Was a Hostage in Gaza"
+description: "Support uncivilized's work through Patreon: https://www.patreon.com/uncivilizedmedia You can watch the first part of this series where we interviewed a Thai negotiator here: https://www.youtube.com/watch?v=BznL4d9BCGA In this episode, Salem travels to Udon Thani in Northeast Thailand to speak to Man"
+pubDate: "May 23 2024"
+heroImage: "../../assets/thumbnails/2oeuqvzmdps.jpg"
+videoId: "2oeuqvzmdps"
+videoUrl: "https://www.youtube.com/watch?v=2oeuqvzmdps"
+---
+
+[Song] I got
+beaten up on the first 3 days.
+[Song] It's
+different now because before...   I'm
+never impatient; I'm usually not very talkative.
+How much is this?   I
+don't want them to meet again.
+[Song]
+We Bang to is the northeast region of
+Thailand. The LA
+Border is for people trying AB to
+work. On to
+meet one of the taken
+prisoner.
+I don't know any of the men and
+women have seen Spanish Palestinians.
+Obviously, they were caught in the
+middle in Israel trying to build
+a better future for their families
+when they found themselves caught up
+in a war. It changed their lives forever.
+About 30,000 workers
+were in Israel before the war
+broke out. They make up the majority
+of Israel's farm labs, most come from
+northeastern Thailand. The impact of October 7,
+2023, caused the number of people in Udon Thani to return to 1580,
+and then 200 people were asked to return.
+Are they aware about the political
+situation? Do they
+understand what's happening in
+Palestine between Israel and Palestine?
+His point of view is that poverty and death are okay. Wow,
+it's quite a dilemma of two
+really
+extreme choices. No, I don't think
+they want to die. But they think, if
+they have nothing to eat, then
+at least they have a chance to
+earn, and not only them, but also
+that loved one who gets a better
+life. So there's a lot of people
+relying on them.
+Yes, that money isn't money.
+This is
+the father. He looks... Hello. Wow, so
+many cows! You
+work in Israel?
+You also worked in Israel?
+Yes. Oh, he has a
+beautiful farm here.
+Why did he go work in Israel?
+He said, "My father has a big farm..."
+So why would I have to go work in Israel?
+It makes money fast. Oh, because in
+Israel they can earn quick money,
+more money, more money. Look, this is a fish pond.   The
+place where they raised the Aikok fish before Nong Manee was arrested.   I
+just got arrested, and when my relatives came, they helped me catch fish.
+Let your relatives eat like this too. I
+wanted to ask you, how did you feel
+as a father when you first
+heard that money was taken? How did you feel when you were taken
+hostage?   I was
+very surprised because I've never seen anything like it before.   This is the first time I've been in a
+situation like this since my father left.
+Israel never encountered anything like this, right? What do you
+feel?
+Because it took a while. He was
+taken to... When he was released... I couldn't
+eat or sleep when I saw him.
+With my boyfriend and with my mom, all I do is cry.   I was speechless when I
+heard about the kids.   When the
+kids get caught, they'll start crying at each other.
+Because we have nothing left to rely on.
+Because Nong Mani is like a pillar (of support).   He's the pillar
+of the family, you know.
+Did you think that money wasn't
+going to come back? Back then, there was some secret...   Do you
+think that Ms. Manee might not come back?   Here we go again,
+thinking about it a lot, especially when I see it.   I
+never thought my child would come back after seeing this video.
+I've made vows at over 10 old shrines in Thailand; I went to every
+sacred place I could find.   My
+hands are all gone, I just finished telling my son that he's been released.
+Come here, oh my goodness, it's so good, like winning the first prize in the lottery!
+Happy lottery! Hey
+moms,
+hello grandma, how do you feel when your son...   I'm so
+happy to be home.   I'm so
+happy I can't even express it! It won't be long before I get my son.   I'm back! My
+wedding day was on
+April 6th, just last month.
+Congratulations, Your Heart!
+I want to ask you, as we were talking, were you thinking?
+Did money
+change after he was taken prisoner
+and spent time in jail? When he came back, did you
+see a
+difference in him—his personality,
+his emotional state? What was different from before?   It's
+more or less different because it wasn't like this before.
+No, I'm never impatient. I'm usually quiet.
+How much is that kind of thing? They've been caught before.   This
+person is hot-tempered and speaks their mind.
+Whatever you're going to do, do it right away like that.   It's
+hot. No, there's nothing here. Nothing at all.   "That's
+polite language, but it's like how I used to talk to you before."   My
+parents wouldn't use such foul language now.
+Speaking bluntly and with such a bad attitude.
+Do they think he...? He... I mean... I can...
+Only assume he's been through
+trum, but... Can they feel that
+he's been through
+TR? Then I found out my son was saying this and that.
+We just accepted that our child might have been under pressure or something.   I do
+n't want to say anything that would upset my child like this.
+Run right now, super
+hot,
+super banana banana. This is
+mostly his land on the
+border. This land is bought by money,
+probably money, money, money. Come here,
+tell him to come here.
+And now their child has arrived. It's not like that anymore.
+I want to come here to plant cassava, I don't want to come here to plant cassava, it's good.   My hands are not
+doing anything.
+Hmm, come here, Professor, Professor, just in time. The
+news will arrive in no more than 20 minutes. The
+weather is good. He wants to
+work. Yes, he is hard. In short, everything... well,
+come here.
+How are you? Thank you for taking
+time from your work to come meet
+with us. I really appreciate it.
+[Song]
+I am, Professor. I'm the first person in Palestine. He's been in Gaza since he's been in Palestine.   And then, I do
+n't remember much, it's been a long time. And I've never...
+I'm the first one since...
+probably the first Palestinian person I
+met... what are his hobbies? What does
+he like to do? He doesn't
+do anything specific, he just goes to work like this. Just
+work. I could tell I didn't even
+need a translation for that. I
+could tell even before going to
+Israel to work.
+Because he is the main
+breadwinner for the family. He always
+felt the responsibility even from
+being young. He worked all the time, his parents told him so.   I
+will become the main breadwinner for the family.
+The pressure
+of being in my first place
+job is true; I want to save money and have a family.   This
+house is mine, it's my own house.
+If we're talking about it, I do
+n't want to talk about it. I
+could remember and he wants to talk about
+it. He doesn't want to talk about it. We won't
+talk about it, you know. He was taken, but can he tell us? May you tell us your experience being in the
+gazebo? What
+happened to the underground tunnel?
+Since the 7th, we've been going down into the tunnel.   I didn't
+see anything at all; I was just in there until it burst. I was
+scared, it was terrifying. And after that, he...
+They said they would exchange the hostages and send them back to Thailand.
+I you you Taken October you
+Won December what what was Every
+like in the tbe the and They did
+n't do anything, they just waited to eat. One day they
+ate
+2 meals, breakfast and dinner, they ate bread and then nothing else.   We've done
+something, and that's how they treated us.   How was it? I
+mean, the
+person who was beaten up for the first three days... and after that, it was enough.   I did
+n't do anything, but I got treated like that every day. After that, it was like, "
+Everyday on the first
+day after that, it was convenient." And after
+the three days, "How was he? How were you
+treated after the first
+three days?" They were playing games with me, it was ridiculous.
+Yes, he was just waiting in front of the door.   Just
+feed them, yes.
+You heard about
+the month,
+what you're happy about? I didn't think much about it.   I'm hoping to
+go home because they said so.   I
+feel a little better now, but not yet.
+Not quite there yet, I haven't even seen the sky.   Okay,
+from what date did he...?
+Tell me, I don't know the day or time.
+[Song]
+Where did you think about what you thought about? I thought about
+home, I thought about my parents, but there was nothing else.
+Were you hearing the sound of air strikes
+and bombs when you
+were underground? What sound was that? I
+didn't hear anything.
+No. Wow. I mean you were probably
+very deep underground. How long did it take to get from the
+surface?
+If you remember to... Well, going
+down wasn't delicious, but coming up was
+about 2 kilometers. I rested 3 or 4 times. Wow.
+2 km on the ground. There was a horizontal path, an uphill path, and a downhill path.
+I know this is a very hard
+conversation to have. I understand
+the level of what he's feeling and going through. I don't understand. I can only imagine
+the level of
+what he's feeling and going through. And I understand that it's difficult, but I just want to know
+how he's felt since he was
+released. How was it seeing his
+family? How was his emotional state of
+mind? How is he
+feeling? Because it's quite an experience
+to go through. What does he feel like?   What's the
+difference? What are the feelings involved? Before, I was happy.   I'm absolutely thrilled to be back in
+Thailand.
+Don't come back alive with our souls.   When I
+saw my parents doing something shocking, I would run away crying.   Okay, so I didn't get to
+say anything at all at the beginning.   I did
+n't say anything. I thought about it for the first two or three days after
+returning to Thailand, but after that, I didn't.
+What are you thinking? You're already back in your hometown.
+We just went along with it, nothing to think about.
+[Song]
+Do you know the political
+situation of what's happening in
+Palestine? Like, why do people in Gaza have to...?
+Rise up and fight Israel. Do we know enough about that? He doesn't know. Do you
+think you'll ever go back to Israel to work there? I've been thinking about going back, I
+want to go back to work in Israel. It'll be
+5 years since I went, it's been a long time. If I want to go...   I've had
+similar experiences in other countries, so I don't want to repeat it.   I
+don't want you to go through that again.
+I'm really sorry you went through
+all of this.
+It's a terrible experience. I do
+n't wish it on you or
+anyone. I'm glad you're back. I'm happy too that you're back in
+Thailand.
+And then there's that guy with the black hair. He's
+not home much because he's...   Keep up the good work,
+Nattawee and Boonthom, register now!
+Go to the social security office in the southern part of Thailand now.   Since we're in
+Koh Samui, why don't we go? Oh, I want to go too.
+There's a lot of work. Oh, I don't want to go because I work.
+Parents Also He working He
+Doesn't speak much so Today He
+speak a lot yeah THANK YOU YOU
+YOU very much
+you youk you so much you you you can
+go work Can Go
+Back I don't want to bother
+you
+[song]
+so just you
+think you think He actually for is
+it I think There Was A couple of
+Things There The trauma There The
+Part That he's shy he's A Man of
+very Few Words Yes And I Also
+think He He was like I just  Wan
+to work I want to get back to
+work you could tell it was Part
+of his personality Yes um work
+the the priority It's Everything
+for him Yeah And I think that we
+We Came during his work Day
+obviously it was inconvenient for
+him but He He kindly Made the
+time
+Also I think the other Thing
+about trauma is that when you go
+through So So Big you you know
+one of Main ways you deal with
+It is you suppress it you don't
+consciously Think About Push it
+down and you try to on with Life
+You know I  think for
+M He L in
+work He forsus On difficult
+Where He comes from What his
+personality Is Like That He has a
+love for work That He Just Got
+Married All These Things I think
+help Human The ST To Be honest
+as A palestinian
+We hear aot about the prisoners
+What love to but for the tha
+prisoners We hear Anything And So
+for me I'm Like Who are These
+People Also deserve to have a
+Story Right And I think a Part
+of me is Being palestinian is
+wanting to connect and Try
+To I think Part I today
+If you want help More Stories
+like you can Also sign up  patreon
+The Link Description
