@@ -76,6 +76,7 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			<h1 class="sr-only">{SITE_TITLE}</h1>
 			<section>
 				<ul>
 					{
