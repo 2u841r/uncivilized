@@ -144,16 +144,24 @@ const {
 			.ambient-glow-bottom {
 				bottom: 0;
 				height: 700px;
-				/* fades upward into the picture instead of a hard top edge */
-				mask-image: linear-gradient(to top, black 0%, black 55%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to top, black 0%, black 55%, transparent 100%);
+				/* opaque near the picture (top of this container), fading to
+				   transparent toward the bottom of the container - not the
+				   other way around, or the glow hard-stops at the container's
+				   rectangular edge instead of fading into black */
+				mask-image: linear-gradient(to bottom, black 0%, black 45%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 45%, transparent 100%);
 			}
 			.glow-blob {
 				position: absolute;
 				top: -30%;
-				width: 65%;
+				width: 90%;
 				height: 160%;
-				background: radial-gradient(circle, var(--glow-color) 0%, transparent 72%);
+				/* closest-side sizing makes the gradient reach full transparency
+				   exactly at the box's flat left/right edges. The default
+				   farthest-corner sizing barely fades along those edges on a
+				   tall narrow box, so the color got clipped by the box
+				   boundary instead of fading out - the hard rectangle edge. */
+				background: radial-gradient(circle closest-side, var(--glow-color) 0%, transparent 100%);
 				opacity: 0.7;
 				/* extra blur on top of the gradient's own falloff so overlapping
 				   blobs blend into each other instead of showing seams
