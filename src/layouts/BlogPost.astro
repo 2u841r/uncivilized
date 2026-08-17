@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'] & { id: string };
+type Props = CollectionEntry<'blog'>['data'] & { id: string; showDate?: boolean };
 
 const {
 	title,
@@ -22,6 +22,7 @@ const {
 	colorLeftBottom,
 	colorCenterBottom,
 	colorRightBottom,
+	showDate = true,
 } = Astro.props;
 ---
 
@@ -294,16 +295,18 @@ const {
 						)}
 					</div>
 					<div class="title">
-						<div class="date" transition:name={`date-${id}`}>
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
-						</div>
+						{
+							showDate && (
+								<div class="date" transition:name={`date-${id}`}>
+									<FormattedDate date={pubDate} />
+									{updatedDate && (
+										<div class="last-updated-on">
+											Last updated on <FormattedDate date={updatedDate} />
+										</div>
+									)}
+								</div>
+							)
+						}
 						<h1 transition:name={`title-${id}`}>{title}</h1>
 						<hr />
 					</div>
