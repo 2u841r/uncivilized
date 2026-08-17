@@ -5,12 +5,12 @@ pubDate: "Dec 15 2024"
 heroImage: "../../assets/thumbnails/aNYAgLFZ4z8.jpg"
 videoId: "aNYAgLFZ4z8"
 videoUrl: "https://www.youtube.com/watch?v=aNYAgLFZ4z8"
-colorLeft: "#a72a25"
-colorRight: "#a53727"
-colorCenter: "#af4f1d"
-colorLeftBottom: "#9e3e2e"
-colorCenterBottom: "#a33629"
-colorRightBottom: "#9f462d"
+colorLeft: "#ad251f"
+colorRight: "#ad241f"
+colorCenter: "#b66b16"
+colorLeftBottom: "#a72e25"
+colorCenterBottom: "#a43828"
+colorRightBottom: "#b0261c"
 ---
 
 Yasser Arafat is the most iconic Palestinian&nbsp;

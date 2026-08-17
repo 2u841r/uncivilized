@@ -5,12 +5,12 @@ pubDate: "Mar 21 2024"
 heroImage: "../../assets/thumbnails/8klRQ-zCVm4.jpg"
 videoId: "8klRQ-zCVm4"
 videoUrl: "https://www.youtube.com/watch?v=8klRQ-zCVm4"
-colorLeft: "#9e6b2e"
-colorRight: "#9e5c2e"
-colorCenter: "#9e5d2e"
-colorLeftBottom: "#9e5e2e"
-colorCenterBottom: "#9e6d2e"
-colorRightBottom: "#9e5b2e"
+colorLeft: "#a77630"
+colorRight: "#9e5b2e"
+colorCenter: "#9e5e2e"
+colorLeftBottom: "#9e602e"
+colorCenterBottom: "#9e682e"
+colorRightBottom: "#9e592e"
 ---
 
 Why does Israel exist partition of

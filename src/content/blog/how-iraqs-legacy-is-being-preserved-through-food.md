@@ -5,12 +5,12 @@ pubDate: "Apr 15 2023"
 heroImage: "../../assets/thumbnails/FTeLCVL6eJ0.jpg"
 videoId: "FTeLCVL6eJ0"
 videoUrl: "https://www.youtube.com/watch?v=FTeLCVL6eJ0"
-colorLeft: "#e19851"
-colorRight: "#c9af45"
-colorCenter: "#d0b81b"
-colorLeftBottom: "#2e899e"
-colorCenterBottom: "#d17961"
-colorRightBottom: "#c57239"
+colorLeft: "#e19e51"
+colorRight: "#dec132"
+colorCenter: "#f0d312"
+colorLeftBottom: "#cb804c"
+colorCenterBottom: "#e4c62f"
+colorRightBottom: "#c26f38"
 ---
 
 what are we eating stuffed on your

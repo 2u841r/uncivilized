@@ -5,12 +5,12 @@ pubDate: "Mar 09 2026"
 heroImage: "../../assets/thumbnails/aqBnwuf3wos.jpg"
 videoId: "aqBnwuf3wos"
 videoUrl: "https://www.youtube.com/watch?v=aqBnwuf3wos"
-colorLeft: "#ab2c21"
-colorRight: "#d6925c"
-colorCenter: "#ad2c21"
-colorLeftBottom: "#9e5f2e"
-colorCenterBottom: "#9e5c2e"
-colorRightBottom: "#c16f38"
+colorLeft: "#d13628"
+colorRight: "#df9053"
+colorCenter: "#d53728"
+colorLeftBottom: "#9e612e"
+colorCenterBottom: "#9e5d2e"
+colorRightBottom: "#d68f5c"
 ---
 
 Now, I am become death,

@@ -97,10 +97,17 @@ async function rawCellColor(imagePath, left, top, width, height) {
 		const r = data[i];
 		const g = data[i + 1];
 		const b = data[i + 2];
-		const [h, s] = rgbToHsl(r, g, b);
+		const [h, s, l] = rgbToHsl(r, g, b);
 		if (s > maxS) maxS = s;
 		if (s >= 0.15) {
-			const weight = s * s;
+			// HSL saturation is numerically unstable near black/white - the
+			// formula divides by (1 - |2l-1|), which shrinks toward 0 as l
+			// approaches 0 or 1, inflating "saturation" for pixels that are
+			// really just dark or light, not vivid. A near-black background
+			// can out-vote a genuinely bright logo (e.g. yellow) purely from
+			// this artifact. Dampen weight for pixels far from mid-lightness.
+			const lightnessFactor = 1 - Math.abs(2 * l - 1);
+			const weight = s * s * lightnessFactor;
 			const bin = Math.floor(h / HUE_BIN_SIZE) % HUE_BINS;
 			binWeight[bin] += weight;
 			binR[bin] += r * weight;
@@ -115,7 +122,7 @@ async function rawCellColor(imagePath, left, top, width, height) {
 
 	if (maxS < 0.08) {
 		// whole region is basically greyscale, no real color to cluster on
-		return { r: sr / count, g: sg / count, b: sb / count };
+		return { r: sr / count, g: sg / count, b: sb / count, mass: 0 };
 	}
 
 	// pick the hue bin (plus its two neighbors, to avoid an arbitrary hard
@@ -143,8 +150,8 @@ async function rawCellColor(imagePath, left, top, width, height) {
 		cb += binB[bin];
 		cw += binWeight[bin];
 	}
-	if (cw === 0) return { r: sr / count, g: sg / count, b: sb / count };
-	return { r: cr / cw, g: cg / cw, b: cb / cw };
+	if (cw === 0) return { r: sr / count, g: sg / count, b: sb / count, mass: 0 };
+	return { r: cr / cw, g: cg / cw, b: cb / cw, mass: cw };
 }
 
 function boostToHex({ r, g, b }) {
@@ -168,21 +175,40 @@ function boostToHex({ r, g, b }) {
 async function sideColors(imagePath) {
 	// Blending cells that are far apart (e.g. blue smoke top-right + yellow
 	// text bottom-right) produces a color that doesn't exist anywhere in the
-	// picture - blue+yellow averages toward green. Instead, sample a band
-	// near the top and a band near the bottom independently, each split into
-	// left/center/right, and use each region's own color as-is - no
-	// cross-region blending. Top band feeds the glow behind the header;
-	// bottom band feeds a second glow under the picture/title.
+	// picture - blue+yellow averages toward green. Sample a band near the
+	// top and a band near the bottom independently (covering the full image
+	// height between them - a 40%/40% split left a 20% dead zone in the
+	// middle where a whole logo could sit unsampled), each split into
+	// left/center/right. Top band feeds the glow behind the header; bottom
+	// band feeds a second glow under the picture/title.
+	//
+	// Each third is still a fairly large area, and a real logo can lose the
+	// hue vote to background+other-content mass spread across that whole
+	// third. So split each third into two sub-columns, vote each
+	// separately, and take whichever sub-column's winning color has more
+	// mass - instead of blending both halves into one diluted average.
 	const meta = await sharp(imagePath).metadata();
 	const w = meta.width;
 	const h = meta.height;
 	const colW = Math.floor(w / 3);
-	const bandH = Math.floor(h * 0.4);
+	const bandH = Math.ceil(h / 2);
+
+	async function bestOfTwo(left, top, width, height) {
+		const a = await rawCellColor(imagePath, left, top, Math.floor(width / 2), height);
+		const b = await rawCellColor(
+			imagePath,
+			left + Math.floor(width / 2),
+			top,
+			width - Math.floor(width / 2),
+			height
+		);
+		return a.mass >= b.mass ? a : b;
+	}
 
 	async function band(top) {
-		const left = await rawCellColor(imagePath, 0, top, colW, bandH);
-		const center = await rawCellColor(imagePath, colW, top, colW, bandH);
-		const right = await rawCellColor(imagePath, w - colW, top, colW, bandH);
+		const left = await bestOfTwo(0, top, colW, bandH);
+		const center = await bestOfTwo(colW, top, colW, bandH);
+		const right = await bestOfTwo(w - colW, top, colW, bandH);
 		return {
 			left: boostToHex(left),
 			center: boostToHex(center),

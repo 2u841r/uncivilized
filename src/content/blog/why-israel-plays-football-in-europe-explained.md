@@ -5,12 +5,12 @@ pubDate: "Jul 14 2024"
 heroImage: "../../assets/thumbnails/0pm_VsZO7mM.jpg"
 videoId: "0pm_VsZO7mM"
 videoUrl: "https://www.youtube.com/watch?v=0pm_VsZO7mM"
-colorLeft: "#a4d161"
-colorRight: "#a56d30"
-colorCenter: "#d1bb61"
-colorLeftBottom: "#cdb552"
-colorCenterBottom: "#d19f61"
-colorRightBottom: "#a66430"
+colorLeft: "#d1b461"
+colorRight: "#9e6c2e"
+colorCenter: "#d1b14b"
+colorLeftBottom: "#d8bb4a"
+colorCenterBottom: "#df7e53"
+colorRightBottom: "#cd8b52"
 ---
 
 Israel plays football in Europe even

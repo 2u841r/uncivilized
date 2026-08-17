@@ -5,12 +5,12 @@ pubDate: "Aug 06 2023"
 heroImage: "../../assets/thumbnails/xq1ofg8VxkY.jpg"
 videoId: "xq1ofg8VxkY"
 videoUrl: "https://www.youtube.com/watch?v=xq1ofg8VxkY"
-colorLeft: "#a54727"
-colorRight: "#ae5933"
-colorCenter: "#9e472e"
-colorLeftBottom: "#bb1411"
-colorCenterBottom: "#a0362c"
-colorRightBottom: "#9f492d"
+colorLeft: "#ad5728"
+colorRight: "#a1512b"
+colorCenter: "#9e3f2e"
+colorLeftBottom: "#b71b15"
+colorCenterBottom: "#9e412e"
+colorRightBottom: "#9e3f2e"
 ---
 
 there is an excruciating sense of

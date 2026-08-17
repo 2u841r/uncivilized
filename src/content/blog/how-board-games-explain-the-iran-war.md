@@ -5,12 +5,12 @@ pubDate: "Mar 21 2026"
 heroImage: "../../assets/thumbnails/mKYZNjW_KkU.jpg"
 videoId: "mKYZNjW_KkU"
 videoUrl: "https://www.youtube.com/watch?v=mKYZNjW_KkU"
-colorLeft: "#c33621"
-colorRight: "#d19061"
-colorCenter: "#cba62e"
-colorLeftBottom: "#ca7015"
-colorCenterBottom: "#ad231f"
-colorRightBottom: "#9e532e"
+colorLeft: "#ca3122"
+colorRight: "#d58b5d"
+colorCenter: "#ebc32b"
+colorLeftBottom: "#c22d21"
+colorCenterBottom: "#e23f2e"
+colorRightBottom: "#bb6036"
 ---
 
 Chaos.

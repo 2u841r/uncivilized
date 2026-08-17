@@ -5,12 +5,12 @@ pubDate: "Apr 21 2026"
 heroImage: "../../assets/thumbnails/qQU8HBzKpTU.jpg"
 videoId: "qQU8HBzKpTU"
 videoUrl: "https://www.youtube.com/watch?v=qQU8HBzKpTU"
-colorLeft: "#859e2e"
-colorRight: "#8c9e2e"
-colorCenter: "#9e572e"
-colorLeftBottom: "#9e442e"
-colorCenterBottom: "#ba2612"
-colorRightBottom: "#aa3422"
+colorLeft: "#d18d61"
+colorRight: "#c56939"
+colorCenter: "#d19061"
+colorLeftBottom: "#c53d2a"
+colorCenterBottom: "#c11d0b"
+colorRightBottom: "#9e4b2e"
 ---
 
 3 and a half million documents

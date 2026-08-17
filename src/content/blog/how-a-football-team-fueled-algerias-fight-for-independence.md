@@ -5,12 +5,12 @@ pubDate: "Aug 01 2024"
 heroImage: "../../assets/thumbnails/_EZumKhISD8.jpg"
 videoId: "_EZumKhISD8"
 videoUrl: "https://www.youtube.com/watch?v=_EZumKhISD8"
-colorLeft: "#2e669e"
-colorRight: "#2e719e"
-colorCenter: "#2e679e"
-colorLeftBottom: "#2e669e"
-colorCenterBottom: "#2e7c9e"
-colorRightBottom: "#2e699e"
+colorLeft: "#2e679e"
+colorRight: "#2e829e"
+colorCenter: "#2e9e9b"
+colorLeftBottom: "#2e689e"
+colorCenterBottom: "#308fa5"
+colorRightBottom: "#2e679e"
 ---
 
 Algeria used football to win

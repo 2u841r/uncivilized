@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/J-d3t-bUcgE.jpg"
 videoId: "J-d3t-bUcgE"
 videoUrl: "https://www.youtube.com/watch?v=J-d3t-bUcgE"
 colorLeft: "#9e562e"
-colorRight: "#9f562d"
-colorCenter: "#9e552e"
-colorLeftBottom: "#9e552e"
-colorCenterBottom: "#c45639"
-colorRightBottom: "#9e502e"
+colorRight: "#aa5831"
+colorCenter: "#9e532e"
+colorLeftBottom: "#9e542e"
+colorCenterBottom: "#34b486"
+colorRightBottom: "#cf725a"
 ---
 
 hi my name is Salem Barahmeh and this is

@@ -5,12 +5,12 @@ pubDate: "Sep 06 2025"
 heroImage: "../../assets/thumbnails/zQSRW_TZj9o.jpg"
 videoId: "zQSRW_TZj9o"
 videoUrl: "https://www.youtube.com/watch?v=zQSRW_TZj9o"
-colorLeft: "#4a9ad2"
-colorRight: "#539bcd"
-colorCenter: "#d5925d"
-colorLeftBottom: "#a33b29"
-colorCenterBottom: "#c06e38"
-colorRightBottom: "#a0412c"
+colorLeft: "#4199d7"
+colorRight: "#4c95cb"
+colorCenter: "#3a97d5"
+colorLeftBottom: "#a53f27"
+colorCenterBottom: "#de8e54"
+colorRightBottom: "#9e4a2e"
 ---
 
 Colonialism

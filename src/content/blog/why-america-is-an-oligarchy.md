@@ -5,12 +5,12 @@ pubDate: "Nov 01 2024"
 heroImage: "../../assets/thumbnails/zL1YpdcMGZ0.jpg"
 videoId: "zL1YpdcMGZ0"
 videoUrl: "https://www.youtube.com/watch?v=zL1YpdcMGZ0"
-colorLeft: "#9e3f2e"
-colorRight: "#cca64f"
-colorCenter: "#c17d38"
-colorLeftBottom: "#2a43a2"
-colorCenterBottom: "#2e499e"
-colorRightBottom: "#2e4b9e"
+colorLeft: "#9e442e"
+colorRight: "#cba74d"
+colorCenter: "#b77535"
+colorLeftBottom: "#2e419e"
+colorCenterBottom: "#2e459e"
+colorRightBottom: "#cf8659"
 ---
 
 hey look at thisd Trump trump you're a
