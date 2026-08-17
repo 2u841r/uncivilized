@@ -104,10 +104,13 @@ const {
 				fill: #fff;
 			}
 			.prose {
+				/* main already insets via its own padding (global.css); no
+				   extra "- 2em"/left-right padding here, or the inset
+				   stacks three deep and mobile ends up over-padded. */
 				width: 720px;
-				max-width: calc(100% - 2em);
+				max-width: 100%;
 				margin: auto;
-				padding: 1em;
+				padding: 1em 0;
 				color: rgb(var(--gray-dark));
 				text-align: justify;
 				text-wrap: pretty;
@@ -126,7 +129,7 @@ const {
 			}
 			.title {
 				width: 720px;
-				max-width: calc(100% - 2em);
+				max-width: 100%;
 				margin: 0 auto 1em;
 				padding: 1em 0;
 				text-align: center;
