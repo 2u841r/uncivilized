@@ -8,8 +8,18 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & { id: string };
 
-const { title, description, pubDate, updatedDate, heroImage, videoId, id, colorLeft, colorRight } =
-	Astro.props;
+const {
+	title,
+	description,
+	pubDate,
+	updatedDate,
+	heroImage,
+	videoId,
+	id,
+	colorLeft,
+	colorCenter,
+	colorRight,
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -115,22 +125,30 @@ const { title, description, pubDate, updatedDate, heroImage, videoId, id, colorL
 				mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
 				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
 			}
-			.ambient-glow::before,
-			.ambient-glow::after {
-				content: '';
+			.ambient-glow .glow-blob {
 				position: absolute;
 				top: -30%;
-				width: 70%;
+				width: 65%;
 				height: 160%;
-				background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
-				opacity: 0.8;
+				background: radial-gradient(circle, var(--glow-color) 0%, transparent 72%);
+				opacity: 0.7;
+				/* extra blur on top of the gradient's own falloff so overlapping
+				   blobs blend into each other instead of showing seams
+				   (the hard split reported on mobile) */
+				filter: blur(40px);
 			}
-			.ambient-glow::before {
-				left: -20%;
+			.ambient-glow .glow-left {
+				left: -18%;
 				--glow-color: var(--color-left);
 			}
-			.ambient-glow::after {
-				right: -20%;
+			.ambient-glow .glow-center {
+				left: 50%;
+				transform: translateX(-50%);
+				width: 55%;
+				--glow-color: var(--color-center, var(--color-left));
+			}
+			.ambient-glow .glow-right {
+				right: -18%;
 				--glow-color: var(--color-right);
 			}
 			header,
@@ -138,12 +156,37 @@ const { title, description, pubDate, updatedDate, heroImage, videoId, id, colorL
 				position: relative;
 				z-index: 1;
 			}
+			@media (max-width: 700px) {
+				/* on narrow screens the blobs sit closer together, so the same
+				   opacity reads as a hard band instead of a smooth blend */
+				.ambient-glow {
+					height: 500px;
+				}
+				.ambient-glow .glow-blob {
+					opacity: 0.5;
+					filter: blur(60px);
+				}
+				.ambient-glow .glow-left,
+				.ambient-glow .glow-right {
+					width: 85%;
+				}
+				.ambient-glow .glow-center {
+					width: 80%;
+				}
+			}
 		</style>
 	</head>
 
 	<body>
 		{colorLeft && colorRight && (
-			<div class="ambient-glow" style={`--color-left:${colorLeft}; --color-right:${colorRight};`} />
+			<div
+				class="ambient-glow"
+				style={`--color-left:${colorLeft}; --color-center:${colorCenter ?? ''}; --color-right:${colorRight};`}
+			>
+				<div class="glow-blob glow-left" />
+				{colorCenter && <div class="glow-blob glow-center" />}
+				<div class="glow-blob glow-right" />
+			</div>
 		)}
 		<Header />
 		<main>

@@ -6,7 +6,8 @@ heroImage: "../../assets/thumbnails/H0tSYW-Qalw.jpg"
 videoId: "H0tSYW-Qalw"
 videoUrl: "https://www.youtube.com/watch?v=H0tSYW-Qalw"
 colorLeft: "#9e432e"
-colorRight: "#9e602e"
+colorRight: "#9e622e"
+colorCenter: "#9f7a2d"
 ---
 
 In 1899, a poem was published.

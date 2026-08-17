@@ -7,6 +7,7 @@ videoId: "aNYAgLFZ4z8"
 videoUrl: "https://www.youtube.com/watch?v=aNYAgLFZ4z8"
 colorLeft: "#9e392e"
 colorRight: "#a0402c"
+colorCenter: "#a94423"
 ---
 
 Yasser Arafat is the most iconic Palestinian&nbsp;

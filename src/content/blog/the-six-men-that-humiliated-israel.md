@@ -5,8 +5,9 @@ pubDate: "Nov 23 2025"
 heroImage: "../../assets/thumbnails/DujFCdVk1Yk.jpg"
 videoId: "DujFCdVk1Yk"
 videoUrl: "https://www.youtube.com/watch?v=DujFCdVk1Yk"
-colorLeft: "#b26634"
-colorRight: "#cd7d53"
+colorLeft: "#b46934"
+colorRight: "#cd7c52"
+colorCenter: "#9e6a2e"
 ---
 
 On September 6th, 2021, in the middle of

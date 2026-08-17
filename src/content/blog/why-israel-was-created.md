@@ -7,6 +7,7 @@ videoId: "8klRQ-zCVm4"
 videoUrl: "https://www.youtube.com/watch?v=8klRQ-zCVm4"
 colorLeft: "#9e672e"
 colorRight: "#9e5c2e"
+colorCenter: "#9e692e"
 ---
 
 Why does Israel exist partition of

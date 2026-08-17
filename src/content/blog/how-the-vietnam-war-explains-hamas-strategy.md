@@ -5,8 +5,9 @@ pubDate: "Dec 04 2023"
 heroImage: "../../assets/thumbnails/SnByWD1SrOU.jpg"
 videoId: "SnByWD1SrOU"
 videoUrl: "https://www.youtube.com/watch?v=SnByWD1SrOU"
-colorLeft: "#c0a40c"
-colorRight: "#bea20e"
+colorLeft: "#9e8a2e"
+colorRight: "#9e8c2e"
+colorCenter: "#ad6e1f"
 ---
 
 Hamas is more the be Kong than Isis what

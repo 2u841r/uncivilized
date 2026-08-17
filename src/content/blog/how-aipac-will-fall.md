@@ -6,7 +6,8 @@ heroImage: "../../assets/thumbnails/8KCLnO-rtuQ.jpg"
 videoId: "8KCLnO-rtuQ"
 videoUrl: "https://www.youtube.com/watch?v=8KCLnO-rtuQ"
 colorLeft: "#9e582e"
-colorRight: "#285ea5"
+colorRight: "#2e609e"
+colorCenter: "#97c038"
 ---
 
 Cigarettes were more deeply ingrained in

@@ -5,8 +5,9 @@ pubDate: "Feb 22 2023"
 heroImage: "../../assets/thumbnails/1s6zgGAH7XI.jpg"
 videoId: "1s6zgGAH7XI"
 videoUrl: "https://www.youtube.com/watch?v=1s6zgGAH7XI"
-colorLeft: "#c8ae41"
-colorRight: "#b03251"
+colorLeft: "#cab049"
+colorRight: "#b53450"
+colorCenter: "#d16461"
 ---
 
 foreign

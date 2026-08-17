@@ -5,8 +5,9 @@ pubDate: "May 27 2026"
 heroImage: "../../assets/thumbnails/CflHbTSmLfk.jpg"
 videoId: "CflHbTSmLfk"
 videoUrl: "https://www.youtube.com/watch?v=CflHbTSmLfk"
-colorLeft: "#c7121f"
+colorLeft: "#c01520"
 colorRight: "#c6693b"
+colorCenter: "#d33631"
 ---
 
 According to the West, I need to be

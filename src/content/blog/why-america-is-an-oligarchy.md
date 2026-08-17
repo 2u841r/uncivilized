@@ -5,8 +5,9 @@ pubDate: "Nov 01 2024"
 heroImage: "../../assets/thumbnails/zL1YpdcMGZ0.jpg"
 videoId: "zL1YpdcMGZ0"
 videoUrl: "https://www.youtube.com/watch?v=zL1YpdcMGZ0"
-colorLeft: "#7b2e9e"
-colorRight: "#9e6c2e"
+colorLeft: "#9e2e8a"
+colorRight: "#9e702e"
+colorCenter: "#9e592e"
 ---
 
 hey look at thisd Trump trump you're a

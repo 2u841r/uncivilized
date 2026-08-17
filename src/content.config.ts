@@ -17,6 +17,7 @@ const blog = defineCollection({
 			videoId: z.string().optional(),
 			videoUrl: z.string().optional(),
 			colorLeft: z.string().optional(),
+			colorCenter: z.string().optional(),
 			colorRight: z.string().optional(),
 		}),
 });

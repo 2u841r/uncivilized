@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Compute an ambient color (average of left third / right third) for each
-// post's hero thumbnail, and write colorLeft/colorRight into its frontmatter.
+// Compute ambient colors from a 3x3 grid sample of each post's hero
+// thumbnail, and write colorLeft/colorCenter/colorRight into its frontmatter.
 //
 // Usage: node scripts/add-thumbnail-colors.mjs
 
@@ -60,16 +60,15 @@ function hslToRgb(h, s, l) {
 	return [r, g, b].map((v) => Math.round((v + m) * 255));
 }
 
-async function avgColorHex(imagePath, left, width, height) {
-	// Neither a flat average (mixed hues wash toward grey) nor "most common
-	// pixel" (a large plain-colored background wins outright, drowning out a
-	// smaller vivid logo) gives the right answer here. Instead, weight each
-	// pixel's contribution to the average by its own saturation, so vivid
-	// pixels (the logo) pull the result while flat/dark background pixels
-	// contribute almost nothing — same idea as Vibrant.js/Spotify Canvas.
+// Weight each pixel's contribution to a region's average by its own
+// saturation, so vivid pixels (a logo) pull the result while flat/dark
+// background pixels contribute almost nothing — same idea as Vibrant.js /
+// Spotify Canvas. Returns raw (unboosted) {r,g,b} so callers can blend
+// several cells together before boosting saturation/lightness once.
+async function rawCellColor(imagePath, left, top, width, height) {
 	const { data, info } = await sharp(imagePath)
-		.extract({ left, top: 0, width, height })
-		.resize(60, null, { fit: 'inside' })
+		.extract({ left, top, width, height })
+		.resize(40, null, { fit: 'inside' })
 		.raw()
 		.toBuffer({ resolveWithObject: true });
 
@@ -99,20 +98,21 @@ async function avgColorHex(imagePath, left, width, height) {
 		count += 1;
 	}
 
-	let r;
-	let g;
-	let b;
 	if (totalWeight > count * 0.02) {
-		r = wr / totalWeight;
-		g = wg / totalWeight;
-		b = wb / totalWeight;
-	} else {
-		// whole region is basically greyscale, fall back to plain average
-		r = sr / count;
-		g = sg / count;
-		b = sb / count;
+		return { r: wr / totalWeight, g: wg / totalWeight, b: wb / totalWeight };
 	}
+	// region is basically greyscale, fall back to plain average
+	return { r: sr / count, g: sg / count, b: sb / count };
+}
 
+function blendRaw(cells) {
+	const r = cells.reduce((sum, c) => sum + c.r, 0) / cells.length;
+	const g = cells.reduce((sum, c) => sum + c.g, 0) / cells.length;
+	const b = cells.reduce((sum, c) => sum + c.b, 0) / cells.length;
+	return { r, g, b };
+}
+
+function boostToHex({ r, g, b }) {
 	const [h, s, l] = rgbToHsl(r, g, b);
 	const boostedS = Math.min(1, Math.max(s, 0.55));
 	const boostedL = Math.min(0.6, Math.max(0.4, l));
@@ -121,11 +121,40 @@ async function avgColorHex(imagePath, left, width, height) {
 }
 
 async function sideColors(imagePath) {
+	// A 2-point (left third / right third) sample only ever sees 2 colors,
+	// even when a thumbnail has 5+. Sample a 3x3 grid instead and blend
+	// each column's cells together — the dead-center cell (almost always a
+	// face, not a color) is dropped from the center column's blend.
 	const meta = await sharp(imagePath).metadata();
-	const third = Math.floor(meta.width / 3);
-	const left = await avgColorHex(imagePath, 0, third, meta.height);
-	const right = await avgColorHex(imagePath, meta.width - third, third, meta.height);
-	return { left, right };
+	const w = meta.width;
+	const h = meta.height;
+	const colW = Math.floor(w / 3);
+	const rowH = Math.floor(h / 3);
+
+	// cells[row][col]
+	const cells = [];
+	for (let row = 0; row < 3; row++) {
+		const rowCells = [];
+		for (let col = 0; col < 3; col++) {
+			const left = col * colW;
+			const top = row * rowH;
+			const width = col === 2 ? w - left : colW;
+			const height = row === 2 ? h - top : rowH;
+			rowCells.push(await rawCellColor(imagePath, left, top, width, height));
+		}
+		cells.push(rowCells);
+	}
+
+	const leftRaw = blendRaw([cells[0][0], cells[1][0], cells[2][0]]);
+	const rightRaw = blendRaw([cells[0][2], cells[1][2], cells[2][2]]);
+	// skip cells[1][1] (dead center, usually a face)
+	const centerRaw = blendRaw([cells[0][1], cells[2][1]]);
+
+	return {
+		left: boostToHex(leftRaw),
+		center: boostToHex(centerRaw),
+		right: boostToHex(rightRaw),
+	};
 }
 
 function extractFrontmatter(content) {
@@ -171,12 +200,13 @@ async function main() {
 		}
 
 		frontmatter = setField(frontmatter, 'colorLeft', colors.left);
+		frontmatter = setField(frontmatter, 'colorCenter', colors.center);
 		frontmatter = setField(frontmatter, 'colorRight', colors.right);
 		writeFileSync(filePath, `---\n${frontmatter}\n---\n\n${body}`, 'utf-8');
 		updated += 1;
 	}
 
-	console.log(`updated ${updated}/${files.length} posts with colorLeft/colorRight`);
+	console.log(`updated ${updated}/${files.length} posts with colorLeft/colorCenter/colorRight`);
 }
 
 main();

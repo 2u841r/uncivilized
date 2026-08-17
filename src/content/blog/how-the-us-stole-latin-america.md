@@ -5,8 +5,9 @@ pubDate: "Jan 15 2026"
 heroImage: "../../assets/thumbnails/AsYk_D9tui8.jpg"
 videoId: "AsYk_D9tui8"
 videoUrl: "https://www.youtube.com/watch?v=AsYk_D9tui8"
-colorLeft: "#9e542e"
-colorRight: "#b41824"
+colorLeft: "#a95d31"
+colorRight: "#b21a25"
+colorCenter: "#b02b2f"
 ---
 
 This military officer is known as a

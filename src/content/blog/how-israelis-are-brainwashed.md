@@ -5,8 +5,9 @@ pubDate: "Jan 16 2024"
 heroImage: "../../assets/thumbnails/a7cgzz5W8uM.jpg"
 videoId: "a7cgzz5W8uM"
 videoUrl: "https://www.youtube.com/watch?v=a7cgzz5W8uM"
-colorLeft: "#5999cf"
-colorRight: "#428dc8"
+colorLeft: "#3d87c7"
+colorRight: "#387dc0"
+colorCenter: "#2e699e"
 ---
 
 You've probably asked yourself how does

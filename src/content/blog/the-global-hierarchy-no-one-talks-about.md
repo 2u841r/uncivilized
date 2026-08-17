@@ -5,8 +5,9 @@ pubDate: "Apr 01 2026"
 heroImage: "../../assets/thumbnails/f-yJMwl2J8s.jpg"
 videoId: "f-yJMwl2J8s"
 videoUrl: "https://www.youtube.com/watch?v=f-yJMwl2J8s"
-colorLeft: "#9e2e5e"
-colorRight: "#9e552e"
+colorLeft: "#9e2e3a"
+colorRight: "#9e562e"
+colorCenter: "#9e632e"
 ---
 
 Your passport's isn't just a travel

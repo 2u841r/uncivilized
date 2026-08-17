@@ -5,8 +5,9 @@ pubDate: "Aug 10 2024"
 heroImage: "../../assets/thumbnails/ouVLarbp_x4.jpg"
 videoId: "ouVLarbp_x4"
 videoUrl: "https://www.youtube.com/watch?v=ouVLarbp_x4"
-colorLeft: "#2e9e40"
-colorRight: "#2e4d9e"
+colorLeft: "#559e2e"
+colorRight: "#2e9e8b"
+colorCenter: "#9e802e"
 ---
 
 did you know about human zoos live human

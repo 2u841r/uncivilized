@@ -5,8 +5,9 @@ pubDate: "Mar 09 2026"
 heroImage: "../../assets/thumbnails/aqBnwuf3wos.jpg"
 videoId: "aqBnwuf3wos"
 videoUrl: "https://www.youtube.com/watch?v=aqBnwuf3wos"
-colorLeft: "#a23a2a"
-colorRight: "#d1905f"
+colorLeft: "#9e472e"
+colorRight: "#ce8955"
+colorCenter: "#9e3f2e"
 ---
 
 Now, I am become death,

@@ -7,6 +7,7 @@ videoId: "sacoJTTsTTc"
 videoUrl: "https://www.youtube.com/watch?v=sacoJTTsTTc"
 colorLeft: "#9e6a2e"
 colorRight: "#9e662e"
+colorCenter: "#9e662e"
 ---
 
 over 5 million algerians were killed by

@@ -5,8 +5,9 @@ pubDate: "May 05 2024"
 heroImage: "../../assets/thumbnails/thWFCrl6ZiU.jpg"
 videoId: "thWFCrl6ZiU"
 videoUrl: "https://www.youtube.com/watch?v=thWFCrl6ZiU"
-colorLeft: "#d16166"
-colorRight: "#ce5858"
+colorLeft: "#ce5759"
+colorRight: "#cb504d"
+colorCenter: "#9f332e"
 ---
 
 you might have heard about children in

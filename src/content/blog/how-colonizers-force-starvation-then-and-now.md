@@ -5,8 +5,9 @@ pubDate: "Aug 04 2025"
 heroImage: "../../assets/thumbnails/OgBCgLF7890.jpg"
 videoId: "OgBCgLF7890"
 videoUrl: "https://www.youtube.com/watch?v=OgBCgLF7890"
-colorLeft: "#4b2e9e"
-colorRight: "#9e2e44"
+colorLeft: "#682e9e"
+colorRight: "#9e352e"
+colorCenter: "#9e552e"
 ---
 
 The Zionist colony is forcibly starving

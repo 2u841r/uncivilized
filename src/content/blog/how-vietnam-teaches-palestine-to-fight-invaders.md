@@ -5,8 +5,9 @@ pubDate: "Sep 06 2024"
 heroImage: "../../assets/thumbnails/HBECSvK0c-I.jpg"
 videoId: "HBECSvK0c-I"
 videoUrl: "https://www.youtube.com/watch?v=HBECSvK0c-I"
-colorLeft: "#99d161"
-colorRight: "#a57f30"
+colorLeft: "#61d172"
+colorRight: "#b28234"
+colorCenter: "#c89e43"
 ---
 
 there's something about the story of

@@ -5,8 +5,9 @@ pubDate: "Aug 01 2024"
 heroImage: "../../assets/thumbnails/_EZumKhISD8.jpg"
 videoId: "_EZumKhISD8"
 videoUrl: "https://www.youtube.com/watch?v=_EZumKhISD8"
-colorLeft: "#2e679e"
+colorLeft: "#2e689e"
 colorRight: "#2e6d9e"
+colorCenter: "#2e7f9e"
 ---
 
 Algeria used football to win
