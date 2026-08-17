@@ -96,6 +96,8 @@ const {
 				margin: auto;
 				padding: 1em;
 				color: rgb(var(--gray-dark));
+				text-align: justify;
+				text-wrap: pretty;
 			}
 			.glow-zone {
 				position: relative;
@@ -265,7 +267,7 @@ const {
 								{heroImage && (
 									<Image
 										width={1020}
-										height={510}
+										height={574}
 										src={heroImage}
 										alt={`Play video: ${title}`}
 										transition:name={`thumb-${id}`}
@@ -279,7 +281,7 @@ const {
 							heroImage && (
 								<Image
 									width={1020}
-									height={510}
+									height={574}
 									src={heroImage}
 									alt=""
 									transition:name={`thumb-${id}`}
