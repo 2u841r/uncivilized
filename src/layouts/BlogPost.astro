@@ -126,8 +126,13 @@ const {
 			.ambient-glow,
 			.ambient-glow-bottom {
 				position: absolute;
-				left: 0;
-				width: 100%;
+				/* Wider than the viewport and centered, not 100%/left:0 - a
+				   blurred child clipped by this box's own overflow:hidden
+				   edge shows a hard seam right at that clip line (the blur
+				   has no pixel data beyond the box to blend from). Pushing
+				   the clip boundary off-screen keeps that seam invisible. */
+				left: -100px;
+				width: calc(100% + 200px);
 				height: 900px;
 				max-height: 70vh;
 				overflow: hidden;
