@@ -5,12 +5,12 @@ pubDate: "Jan 26 2024"
 heroImage: "../../assets/thumbnails/afGJwF9Csv0.jpg"
 videoId: "afGJwF9Csv0"
 videoUrl: "https://www.youtube.com/watch?v=afGJwF9Csv0"
-colorLeft: "#f9d109"
-colorRight: "#fbd506"
-colorCenter: "#f6ce0a"
+colorLeft: "#f1ca11"
+colorRight: "#f9d408"
+colorCenter: "#f0cb0c"
 colorLeftBottom: "#9e582e"
 colorCenterBottom: "#9e612e"
-colorRightBottom: "#9e5c2e"
+colorRightBottom: "#9e5d2e"
 ---
 
 Yemen the land of Warriors why is a

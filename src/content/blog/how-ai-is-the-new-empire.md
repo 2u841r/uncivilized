@@ -5,12 +5,12 @@ pubDate: "Jul 22 2025"
 heroImage: "../../assets/thumbnails/x6CTNFTLns8.jpg"
 videoId: "x6CTNFTLns8"
 videoUrl: "https://www.youtube.com/watch?v=x6CTNFTLns8"
-colorLeft: "#a16a2b"
-colorRight: "#9e752e"
-colorCenter: "#9e6c2e"
-colorLeftBottom: "#ab6521"
-colorCenterBottom: "#ca8f47"
-colorRightBottom: "#a76525"
+colorLeft: "#a46f28"
+colorRight: "#9e7a2e"
+colorCenter: "#9e672e"
+colorLeftBottom: "#af611d"
+colorCenterBottom: "#bd7d37"
+colorRightBottom: "#a2682a"
 ---
 
 AI went from making weird and funny

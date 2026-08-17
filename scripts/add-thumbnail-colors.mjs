@@ -182,33 +182,16 @@ async function sideColors(imagePath) {
 	// left/center/right. Top band feeds the glow behind the header; bottom
 	// band feeds a second glow under the picture/title.
 	//
-	// Each third is still a fairly large area, and a real logo can lose the
-	// hue vote to background+other-content mass spread across that whole
-	// third. So split each third into two sub-columns, vote each
-	// separately, and take whichever sub-column's winning color has more
-	// mass - instead of blending both halves into one diluted average.
 	const meta = await sharp(imagePath).metadata();
 	const w = meta.width;
 	const h = meta.height;
 	const colW = Math.floor(w / 3);
 	const bandH = Math.ceil(h / 2);
 
-	async function bestOfTwo(left, top, width, height) {
-		const a = await rawCellColor(imagePath, left, top, Math.floor(width / 2), height);
-		const b = await rawCellColor(
-			imagePath,
-			left + Math.floor(width / 2),
-			top,
-			width - Math.floor(width / 2),
-			height
-		);
-		return a.mass >= b.mass ? a : b;
-	}
-
 	async function band(top) {
-		const left = await bestOfTwo(0, top, colW, bandH);
-		const center = await bestOfTwo(colW, top, colW, bandH);
-		const right = await bestOfTwo(w - colW, top, colW, bandH);
+		const left = await rawCellColor(imagePath, 0, top, colW, bandH);
+		const center = await rawCellColor(imagePath, colW, top, colW, bandH);
+		const right = await rawCellColor(imagePath, w - colW, top, colW, bandH);
 		return {
 			left: boostToHex(left),
 			center: boostToHex(center),

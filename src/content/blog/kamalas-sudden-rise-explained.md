@@ -5,12 +5,12 @@ pubDate: "Aug 22 2024"
 heroImage: "../../assets/thumbnails/aEQ2SQP_590.jpg"
 videoId: "aEQ2SQP_590"
 videoUrl: "https://www.youtube.com/watch?v=aEQ2SQP_590"
-colorLeft: "#3465b4"
-colorRight: "#2971a3"
-colorCenter: "#c86040"
-colorLeftBottom: "#9e492e"
-colorCenterBottom: "#bf5937"
-colorRightBottom: "#be6a37"
+colorLeft: "#305aa6"
+colorRight: "#2d709f"
+colorCenter: "#b45234"
+colorLeftBottom: "#9e4f2e"
+colorCenterBottom: "#a04a2e"
+colorRightBottom: "#a85d31"
 ---
 
 Camala Harris, she's the least popular

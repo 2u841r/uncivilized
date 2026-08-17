@@ -5,12 +5,12 @@ pubDate: "Feb 03 2026"
 heroImage: "../../assets/thumbnails/D1P0tjG-LgI.jpg"
 videoId: "D1P0tjG-LgI"
 videoUrl: "https://www.youtube.com/watch?v=D1P0tjG-LgI"
-colorLeft: "#b73215"
-colorRight: "#ad5732"
-colorCenter: "#c20b0a"
-colorLeftBottom: "#d99709"
-colorCenterBottom: "#ce3c06"
-colorRightBottom: "#bc6137"
+colorLeft: "#b53117"
+colorRight: "#a65030"
+colorCenter: "#c2220a"
+colorLeftBottom: "#cd8f09"
+colorCenterBottom: "#c33f09"
+colorRightBottom: "#ae572c"
 ---
 
 If you look at the Arab world today,

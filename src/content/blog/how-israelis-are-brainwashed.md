@@ -5,12 +5,12 @@ pubDate: "Jan 16 2024"
 heroImage: "../../assets/thumbnails/a7cgzz5W8uM.jpg"
 videoId: "a7cgzz5W8uM"
 videoUrl: "https://www.youtube.com/watch?v=a7cgzz5W8uM"
-colorLeft: "#1f75d3"
-colorRight: "#538dcd"
-colorCenter: "#5a96d8"
+colorLeft: "#4f8ed6"
+colorRight: "#5f95d1"
+colorCenter: "#5897da"
 colorLeftBottom: "#618ed1"
-colorCenterBottom: "#6195d1"
-colorRightBottom: "#2f57a1"
+colorCenterBottom: "#6196d1"
+colorRightBottom: "#3158a7"
 ---
 
 You've probably asked yourself how does

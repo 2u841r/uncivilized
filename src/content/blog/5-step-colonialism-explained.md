@@ -7,10 +7,10 @@ videoId: "H0tSYW-Qalw"
 videoUrl: "https://www.youtube.com/watch?v=H0tSYW-Qalw"
 colorLeft: "#9e3d2e"
 colorRight: "#9e482e"
-colorCenter: "#bf6437"
-colorLeftBottom: "#9e4e2e"
-colorCenterBottom: "#ba9b2a"
-colorRightBottom: "#9f762d"
+colorCenter: "#a85731"
+colorLeftBottom: "#9e472e"
+colorCenterBottom: "#ac9125"
+colorRightBottom: "#9e702e"
 ---
 
 In 1899, a poem was published.

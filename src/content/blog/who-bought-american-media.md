@@ -5,12 +5,12 @@ pubDate: "Dec 26 2025"
 heroImage: "../../assets/thumbnails/4oJ7Z2urJW4.jpg"
 videoId: "4oJ7Z2urJW4"
 videoUrl: "https://www.youtube.com/watch?v=4oJ7Z2urJW4"
-colorLeft: "#a03f2c"
-colorRight: "#b51d17"
-colorCenter: "#ac312c"
-colorLeftBottom: "#c76f3d"
-colorCenterBottom: "#da9458"
-colorRightBottom: "#c72a32"
+colorLeft: "#9e422e"
+colorRight: "#b61c16"
+colorCenter: "#ab332e"
+colorLeftBottom: "#d16f50"
+colorCenterBottom: "#d19361"
+colorRightBottom: "#b93638"
 ---
 
 The sharing of biased and false

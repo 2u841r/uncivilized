@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/_EZumKhISD8.jpg"
 videoId: "_EZumKhISD8"
 videoUrl: "https://www.youtube.com/watch?v=_EZumKhISD8"
 colorLeft: "#2e679e"
-colorRight: "#2e829e"
-colorCenter: "#2e9e9b"
-colorLeftBottom: "#2e689e"
-colorCenterBottom: "#308fa5"
-colorRightBottom: "#2e679e"
+colorRight: "#2e799e"
+colorCenter: "#2e959e"
+colorLeftBottom: "#2e679e"
+colorCenterBottom: "#2e879e"
+colorRightBottom: "#2e6e9e"
 ---
 
 Algeria used football to win

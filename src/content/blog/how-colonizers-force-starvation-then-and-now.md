@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/OgBCgLF7890.jpg"
 videoId: "OgBCgLF7890"
 videoUrl: "https://www.youtube.com/watch?v=OgBCgLF7890"
 colorLeft: "#9e552e"
-colorRight: "#9e4c2e"
-colorCenter: "#d19d61"
+colorRight: "#9e4b2e"
+colorCenter: "#ca8b4a"
 colorLeftBottom: "#2e439e"
-colorCenterBottom: "#ca8949"
-colorRightBottom: "#9e472e"
+colorCenterBottom: "#d0965c"
+colorRightBottom: "#9e452e"
 ---
 
 The Zionist colony is forcibly starving

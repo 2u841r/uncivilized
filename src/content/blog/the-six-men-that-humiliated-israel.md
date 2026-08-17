@@ -5,12 +5,12 @@ pubDate: "Nov 23 2025"
 heroImage: "../../assets/thumbnails/DujFCdVk1Yk.jpg"
 videoId: "DujFCdVk1Yk"
 videoUrl: "https://www.youtube.com/watch?v=DujFCdVk1Yk"
-colorLeft: "#b56735"
-colorRight: "#d18961"
-colorCenter: "#9e5f2e"
-colorLeftBottom: "#b06633"
-colorCenterBottom: "#9e5e2e"
-colorRightBottom: "#d18661"
+colorLeft: "#b66b35"
+colorRight: "#d3895f"
+colorCenter: "#a97c23"
+colorLeftBottom: "#b66c35"
+colorCenterBottom: "#be6d37"
+colorRightBottom: "#d0805c"
 ---
 
 On September 6th, 2021, in the middle of

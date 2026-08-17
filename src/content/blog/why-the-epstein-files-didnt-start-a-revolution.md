@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/qQU8HBzKpTU.jpg"
 videoId: "qQU8HBzKpTU"
 videoUrl: "https://www.youtube.com/watch?v=qQU8HBzKpTU"
 colorLeft: "#d18d61"
-colorRight: "#c56939"
-colorCenter: "#d19061"
-colorLeftBottom: "#c53d2a"
-colorCenterBottom: "#c11d0b"
-colorRightBottom: "#9e4b2e"
+colorRight: "#c86f40"
+colorCenter: "#bf6a38"
+colorLeftBottom: "#ce6d58"
+colorCenterBottom: "#b12e1d"
+colorRightBottom: "#a13d2b"
 ---
 
 3 and a half million documents

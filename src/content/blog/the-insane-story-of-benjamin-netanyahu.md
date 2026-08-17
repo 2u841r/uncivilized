@@ -5,12 +5,12 @@ pubDate: "Aug 14 2026"
 heroImage: "../../assets/thumbnails/hXlWNGcuysE.jpg"
 videoId: "hXlWNGcuysE"
 videoUrl: "https://www.youtube.com/watch?v=hXlWNGcuysE"
-colorLeft: "#d43929"
-colorRight: "#d26d4f"
-colorCenter: "#d7875b"
-colorLeftBottom: "#d1bf61"
+colorLeft: "#c73727"
+colorRight: "#cb684b"
+colorCenter: "#d7805b"
+colorLeftBottom: "#3c3c3c"
 colorCenterBottom: "#d19a61"
-colorRightBottom: "#dea054"
+colorRightBottom: "#dca056"
 ---
 
 Narcissistic, authoritarian, and

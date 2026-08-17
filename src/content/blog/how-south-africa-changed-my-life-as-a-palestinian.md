@@ -5,12 +5,12 @@ pubDate: "Mar 30 2023"
 heroImage: "../../assets/thumbnails/n0fulu5clfs.jpg"
 videoId: "n0fulu5clfs"
 videoUrl: "https://www.youtube.com/watch?v=n0fulu5clfs"
-colorLeft: "#f2e70c"
-colorRight: "#f3e90c"
-colorCenter: "#e7a12e"
-colorLeftBottom: "#d19661"
-colorCenterBottom: "#e8884a"
-colorRightBottom: "#2e609e"
+colorLeft: "#e6dc0f"
+colorRight: "#e8de0f"
+colorCenter: "#e4a935"
+colorLeftBottom: "#c99746"
+colorCenterBottom: "#d98b59"
+colorRightBottom: "#c6893b"
 ---
 
 a year ago I found myself halfway across

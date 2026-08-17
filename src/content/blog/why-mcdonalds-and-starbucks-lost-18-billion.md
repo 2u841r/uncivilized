@@ -5,12 +5,12 @@ pubDate: "Apr 02 2025"
 heroImage: "../../assets/thumbnails/IAa2iym2Wv0.jpg"
 videoId: "IAa2iym2Wv0"
 videoUrl: "https://www.youtube.com/watch?v=IAa2iym2Wv0"
-colorLeft: "#f25209"
-colorRight: "#21ab81"
-colorCenter: "#d93b16"
-colorLeftBottom: "#f0b31f"
-colorCenterBottom: "#c97c44"
-colorRightBottom: "#ea3209"
+colorLeft: "#ef630d"
+colorRight: "#28a47d"
+colorCenter: "#de522f"
+colorLeftBottom: "#e7ae26"
+colorCenterBottom: "#c57239"
+colorRightBottom: "#e85832"
 ---
 
 October

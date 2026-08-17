@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/pVL24wpnN44.jpg"
 videoId: "pVL24wpnN44"
 videoUrl: "https://www.youtube.com/watch?v=pVL24wpnN44"
 colorLeft: "#2e7e9e"
-colorRight: "#b47118"
-colorCenter: "#b66c16"
-colorLeftBottom: "#2e7b9e"
-colorCenterBottom: "#c6893c"
-colorRightBottom: "#bd630f"
+colorRight: "#b87014"
+colorCenter: "#a46928"
+colorLeftBottom: "#2e7a9e"
+colorCenterBottom: "#ae7733"
+colorRightBottom: "#b2661a"
 ---
 
 I just freed hostages from terrorists
