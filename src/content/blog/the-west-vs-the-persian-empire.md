@@ -5,12 +5,12 @@ pubDate: "Jun 26 2025"
 heroImage: "../../assets/thumbnails/ej4buuj0ofk.jpg"
 videoId: "ej4buuj0ofk"
 videoUrl: "https://www.youtube.com/watch?v=ej4buuj0ofk"
-colorLeft: "#9e5c2e"
-colorRight: "#9e572e"
-colorCenter: "#9e592e"
-colorLeftBottom: "#9e622e"
-colorCenterBottom: "#9e5a2e"
-colorRightBottom: "#9e4d2e"
+colorLeft: "#9e592e"
+colorRight: "#9e582e"
+colorCenter: "#2e9e2e"
+colorLeftBottom: "#3b2e9e"
+colorCenterBottom: "#3a2e9e"
+colorRightBottom: "#312e9e"
 ---
 
 There's a feud between Iran and the West

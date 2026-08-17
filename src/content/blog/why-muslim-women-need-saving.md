@@ -5,12 +5,12 @@ pubDate: "May 27 2026"
 heroImage: "../../assets/thumbnails/CflHbTSmLfk.jpg"
 videoId: "CflHbTSmLfk"
 videoUrl: "https://www.youtube.com/watch?v=CflHbTSmLfk"
-colorLeft: "#b61625"
-colorRight: "#aa5d31"
-colorCenter: "#d11720"
-colorLeftBottom: "#d01319"
-colorCenterBottom: "#d45445"
-colorRightBottom: "#d18061"
+colorLeft: "#a62631"
+colorRight: "#a3582f"
+colorCenter: "#ae252d"
+colorLeftBottom: "#ae1e23"
+colorCenterBottom: "#cb5c4b"
+colorRightBottom: "#cb704b"
 ---
 
 According to the West, I need to be

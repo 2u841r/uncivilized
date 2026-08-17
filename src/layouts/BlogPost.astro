@@ -136,20 +136,19 @@ const {
 			}
 			.ambient-glow {
 				top: 0;
-				/* fade the whole layer to transparent before it hits max-height,
-				   instead of hard-cutting the blurred blobs */
-				mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
+				/* Continuous taper, no flat "fully opaque" plateau - a plateau
+				   followed by a fade has a sudden change in rate right where
+				   the fade starts, which reads as a hard edge, especially
+				   where it overlaps the bottom glow's own opaque plateau in
+				   the margins beside the picture. */
+				mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
 			}
 			.ambient-glow-bottom {
 				bottom: 0;
 				height: 700px;
-				/* opaque near the picture (top of this container), fading to
-				   transparent toward the bottom of the container - not the
-				   other way around, or the glow hard-stops at the container's
-				   rectangular edge instead of fading into black */
-				mask-image: linear-gradient(to bottom, black 0%, black 45%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 45%, transparent 100%);
+				mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
 			}
 			.glow-blob {
 				position: absolute;
@@ -166,7 +165,7 @@ const {
 				/* extra blur on top of the gradient's own falloff so overlapping
 				   blobs blend into each other instead of showing seams
 				   (the hard split reported on mobile) */
-				filter: blur(40px);
+				filter: blur(70px);
 			}
 			.glow-left {
 				left: -18%;

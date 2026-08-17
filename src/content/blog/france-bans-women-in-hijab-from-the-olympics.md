@@ -5,12 +5,12 @@ pubDate: "Jun 13 2024"
 heroImage: "../../assets/thumbnails/b0yrrjW9AlI.jpg"
 videoId: "b0yrrjW9AlI"
 videoUrl: "https://www.youtube.com/watch?v=b0yrrjW9AlI"
-colorLeft: "#e4cc32"
-colorRight: "#e8ce30"
-colorCenter: "#e1c42d"
-colorLeftBottom: "#caab49"
-colorCenterBottom: "#9e942e"
-colorRightBottom: "#9e632e"
+colorLeft: "#f0cd20"
+colorRight: "#f1d024"
+colorCenter: "#dcb725"
+colorLeftBottom: "#2e709e"
+colorCenterBottom: "#2e7d9e"
+colorRightBottom: "#9e662e"
 ---
 
 [Music]

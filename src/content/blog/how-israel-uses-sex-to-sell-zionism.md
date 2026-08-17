@@ -5,12 +5,12 @@ pubDate: "Sep 20 2024"
 heroImage: "../../assets/thumbnails/OHJEpnCL5nE.jpg"
 videoId: "OHJEpnCL5nE"
 videoUrl: "https://www.youtube.com/watch?v=OHJEpnCL5nE"
-colorLeft: "#652e9e"
-colorRight: "#2f57a3"
-colorCenter: "#be6c37"
-colorLeftBottom: "#9e7d2e"
-colorCenterBottom: "#2e409e"
-colorRightBottom: "#9e2e6a"
+colorLeft: "#9e502e"
+colorRight: "#595959"
+colorCenter: "#c97945"
+colorLeftBottom: "#cbbb4c"
+colorCenterBottom: "#2e459e"
+colorRightBottom: "#9e2e4d"
 ---
 
 for a long time Israel has used sex to

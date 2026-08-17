@@ -5,12 +5,12 @@ pubDate: "Jul 21 2026"
 heroImage: "../../assets/thumbnails/Yq_fWXKidhk.jpg"
 videoId: "Yq_fWXKidhk"
 videoUrl: "https://www.youtube.com/watch?v=Yq_fWXKidhk"
-colorLeft: "#d38d5f"
-colorRight: "#4036ba"
-colorCenter: "#bc5636"
-colorLeftBottom: "#caa149"
-colorCenterBottom: "#c9a128"
-colorRightBottom: "#9e8c2e"
+colorLeft: "#ce8758"
+colorRight: "#c59239"
+colorCenter: "#d1aa61"
+colorLeftBottom: "#cc9d51"
+colorCenterBottom: "#2e4e9e"
+colorRightBottom: "#bba136"
 ---
 
 Israelis aren't just settlers in Israel.

@@ -5,12 +5,12 @@ pubDate: "Dec 08 2023"
 heroImage: "../../assets/thumbnails/-dMZfmThyJQ.jpg"
 videoId: "-dMZfmThyJQ"
 videoUrl: "https://www.youtube.com/watch?v=-dMZfmThyJQ"
-colorLeft: "#d19161"
-colorRight: "#9e452e"
-colorCenter: "#9e982e"
-colorLeftBottom: "#9e732e"
-colorCenterBottom: "#9f7f2d"
-colorRightBottom: "#409e2e"
+colorLeft: "#d19361"
+colorRight: "#9e5b2e"
+colorCenter: "#5fced1"
+colorLeftBottom: "#2e5c9e"
+colorCenterBottom: "#2e399e"
+colorRightBottom: "#9e2e46"
 ---
 
 [Applause]

@@ -5,12 +5,12 @@ pubDate: "May 05 2024"
 heroImage: "../../assets/thumbnails/thWFCrl6ZiU.jpg"
 videoId: "thWFCrl6ZiU"
 videoUrl: "https://www.youtube.com/watch?v=thWFCrl6ZiU"
-colorLeft: "#9661d1"
-colorRight: "#d35f61"
-colorCenter: "#c94444"
-colorLeftBottom: "#a12d2b"
-colorCenterBottom: "#9e332e"
-colorRightBottom: "#b96136"
+colorLeft: "#9461d1"
+colorRight: "#a2302d"
+colorCenter: "#9e362e"
+colorLeftBottom: "#9e3c2e"
+colorCenterBottom: "#9e412e"
+colorRightBottom: "#9e4e2e"
 ---
 
 you might have heard about children in

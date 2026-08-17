@@ -5,12 +5,12 @@ pubDate: "Jun 04 2025"
 heroImage: "../../assets/thumbnails/v8Suyxaj26s.jpg"
 videoId: "v8Suyxaj26s"
 videoUrl: "https://www.youtube.com/watch?v=v8Suyxaj26s"
-colorLeft: "#9e2e36"
-colorRight: "#2e379e"
-colorCenter: "#9e6f2e"
-colorLeftBottom: "#a43128"
-colorCenterBottom: "#9e822e"
-colorRightBottom: "#2e399e"
+colorLeft: "#2e9c9e"
+colorRight: "#2e389e"
+colorCenter: "#2e369e"
+colorLeftBottom: "#a22a2f"
+colorCenterBottom: "#9e2e9e"
+colorRightBottom: "#cc00cc"
 ---
 
 Recognizing the state of Palestine is

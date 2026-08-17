@@ -5,12 +5,12 @@ pubDate: "Dec 22 2023"
 heroImage: "../../assets/thumbnails/ayVWaaDEiZc.jpg"
 videoId: "ayVWaaDEiZc"
 videoUrl: "https://www.youtube.com/watch?v=ayVWaaDEiZc"
-colorLeft: "#9e7c2e"
-colorRight: "#c98b44"
-colorCenter: "#9e6a2e"
-colorLeftBottom: "#a1842b"
-colorCenterBottom: "#b59d17"
-colorRightBottom: "#a18e2b"
+colorLeft: "#a68230"
+colorRight: "#cc9350"
+colorCenter: "#bc8037"
+colorLeftBottom: "#2e2f9e"
+colorCenterBottom: "#2e2f9e"
+colorRightBottom: "#2e319e"
 ---
 
 the Warsaw Ghetto Uprising the single

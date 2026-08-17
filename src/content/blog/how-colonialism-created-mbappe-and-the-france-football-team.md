@@ -5,12 +5,12 @@ pubDate: "Jul 12 2024"
 heroImage: "../../assets/thumbnails/IqcNbeNuyIU.jpg"
 videoId: "IqcNbeNuyIU"
 videoUrl: "https://www.youtube.com/watch?v=IqcNbeNuyIU"
-colorLeft: "#4c6ccb"
-colorRight: "#617ad1"
-colorCenter: "#ce55a6"
-colorLeftBottom: "#cb944a"
-colorCenterBottom: "#5930a7"
-colorRightBottom: "#383cc0"
+colorLeft: "#397ac3"
+colorRight: "#619ad1"
+colorCenter: "#ae5533"
+colorLeftBottom: "#2e4d9e"
+colorCenterBottom: "#619dd1"
+colorRightBottom: "#73d161"
 ---
 
 K mbapp RI MZ William

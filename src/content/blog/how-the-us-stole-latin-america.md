@@ -5,12 +5,12 @@ pubDate: "Jan 15 2026"
 heroImage: "../../assets/thumbnails/AsYk_D9tui8.jpg"
 videoId: "AsYk_D9tui8"
 videoUrl: "https://www.youtube.com/watch?v=AsYk_D9tui8"
-colorLeft: "#9e482e"
-colorRight: "#ac2027"
-colorCenter: "#ac282a"
-colorLeftBottom: "#d19061"
-colorCenterBottom: "#b63034"
-colorRightBottom: "#b51723"
+colorLeft: "#2f2e9e"
+colorRight: "#2e999e"
+colorCenter: "#2e8d9e"
+colorLeftBottom: "#2e9e9e"
+colorCenterBottom: "#c33e39"
+colorRightBottom: "#0ebea3"
 ---
 
 This military officer is known as a

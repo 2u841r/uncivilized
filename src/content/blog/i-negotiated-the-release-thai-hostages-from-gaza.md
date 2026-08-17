@@ -5,12 +5,12 @@ pubDate: "May 14 2024"
 heroImage: "../../assets/thumbnails/BznL4d9BCGA.jpg"
 videoId: "BznL4d9BCGA"
 videoUrl: "https://www.youtube.com/watch?v=BznL4d9BCGA"
-colorLeft: "#cad161"
-colorRight: "#c2c946"
-colorCenter: "#c97c46"
-colorLeftBottom: "#2e9e92"
-colorCenterBottom: "#a36a2f"
-colorRightBottom: "#2e9e4c"
+colorLeft: "#595959"
+colorRight: "#d1d161"
+colorCenter: "#86d161"
+colorLeftBottom: "#9e7e2e"
+colorCenterBottom: "#50bbcc"
+colorRightBottom: "#9e722e"
 ---
 
 we're About to finally Get The

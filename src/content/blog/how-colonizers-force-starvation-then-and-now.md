@@ -5,12 +5,12 @@ pubDate: "Aug 04 2025"
 heroImage: "../../assets/thumbnails/OgBCgLF7890.jpg"
 videoId: "OgBCgLF7890"
 videoUrl: "https://www.youtube.com/watch?v=OgBCgLF7890"
-colorLeft: "#c07238"
-colorRight: "#9e492e"
-colorCenter: "#9e612e"
-colorLeftBottom: "#2e389e"
-colorCenterBottom: "#9e2e35"
-colorRightBottom: "#9e2e70"
+colorLeft: "#9e562e"
+colorRight: "#9e2e6e"
+colorCenter: "#3a2e9e"
+colorLeftBottom: "#2e429e"
+colorCenterBottom: "#2e3e9e"
+colorRightBottom: "#9e4b2e"
 ---
 
 The Zionist colony is forcibly starving

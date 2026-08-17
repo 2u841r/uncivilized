@@ -5,12 +5,12 @@ pubDate: "Apr 01 2026"
 heroImage: "../../assets/thumbnails/f-yJMwl2J8s.jpg"
 videoId: "f-yJMwl2J8s"
 videoUrl: "https://www.youtube.com/watch?v=f-yJMwl2J8s"
-colorLeft: "#ae391e"
-colorRight: "#9e562e"
-colorCenter: "#c94e2e"
-colorLeftBottom: "#2e579e"
-colorCenterBottom: "#2370a9"
-colorRightBottom: "#a35429"
+colorLeft: "#ac202e"
+colorRight: "#2e9e9e"
+colorCenter: "#b99c16"
+colorLeftBottom: "#2b64a1"
+colorCenterBottom: "#a2492a"
+colorRightBottom: "#9f572d"
 ---
 
 Your passport's isn't just a travel

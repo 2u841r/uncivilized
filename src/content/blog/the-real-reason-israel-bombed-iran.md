@@ -5,12 +5,12 @@ pubDate: "Jun 18 2025"
 heroImage: "../../assets/thumbnails/foD-MwTxqGk.jpg"
 videoId: "foD-MwTxqGk"
 videoUrl: "https://www.youtube.com/watch?v=foD-MwTxqGk"
-colorLeft: "#0776c5"
-colorRight: "#24a887"
-colorCenter: "#2e8f9e"
-colorLeftBottom: "#2e9e50"
-colorCenterBottom: "#bfac0d"
-colorRightBottom: "#b66816"
+colorLeft: "#1163bb"
+colorRight: "#163eb6"
+colorCenter: "#9e672e"
+colorLeftBottom: "#0c5dc0"
+colorCenterBottom: "#2e429e"
+colorRightBottom: "#2e379e"
 ---
 
 No one is telling you the real reason of

@@ -7,10 +7,10 @@ videoId: "YwcXLZE-EHo"
 videoUrl: "https://www.youtube.com/watch?v=YwcXLZE-EHo"
 colorLeft: "#2e589e"
 colorRight: "#9e2e33"
-colorCenter: "#b25534"
-colorLeftBottom: "#2059ac"
-colorCenterBottom: "#b48d29"
-colorRightBottom: "#a12b34"
+colorCenter: "#2e599e"
+colorLeftBottom: "#2b5aa1"
+colorCenterBottom: "#712e9e"
+colorRightBottom: "#2e629e"
 ---
 
 Venezuela, Greenland, and Iran. Three

@@ -5,12 +5,12 @@ pubDate: "Oct 26 2022"
 heroImage: "../../assets/thumbnails/J-d3t-bUcgE.jpg"
 videoId: "J-d3t-bUcgE"
 videoUrl: "https://www.youtube.com/watch?v=J-d3t-bUcgE"
-colorLeft: "#9e562e"
-colorRight: "#9e562e"
-colorCenter: "#9e552e"
-colorLeftBottom: "#9e5e2e"
-colorCenterBottom: "#44a42f"
-colorRightBottom: "#9e4f2e"
+colorLeft: "#2e389e"
+colorRight: "#00cc00"
+colorCenter: "#3b2e9e"
+colorLeftBottom: "#2e9e39"
+colorCenterBottom: "#a64b30"
+colorRightBottom: "#4b2e9e"
 ---
 
 hi my name is Salem Barahmeh and this is
