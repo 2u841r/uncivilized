@@ -241,18 +241,55 @@ const {
 				/* on narrow screens the blobs sit closer together, so the same
 				   opacity reads as a hard band instead of a smooth blend */
 				.ambient-glow {
-					height: 500px;
+					height: 680px;
+					/* longer solid plateau so the color reaches full strength
+					   behind the navbar instead of already tapering there */
+					mask-image: linear-gradient(to bottom, black 0%, black 30%, transparent 100%);
+					-webkit-mask-image: linear-gradient(to bottom, black 0%, black 30%, transparent 100%);
 				}
 				.ambient-glow-bottom {
-					height: 400px;
+					height: 620px;
+					/* this glow lives inside main, whose own 1em padding
+					   insets it from the true edge (unlike the top glow,
+					   which is a direct sibling of main/header under body
+					   and has no such inset) - extend by exactly that
+					   padding to reach the true edge without going past it */
+					left: -1em;
+					width: calc(100% + 2em);
+					/* taller box (still bottom-anchored) reaches further up
+					   into the title area on narrow screens */
+					mask-image: linear-gradient(
+						to bottom,
+						transparent 0%,
+						black 30%,
+						black 65%,
+						transparent 100%
+					);
+					-webkit-mask-image: linear-gradient(
+						to bottom,
+						transparent 0%,
+						black 30%,
+						black 65%,
+						transparent 100%
+					);
 				}
 				.glow-blob {
-					opacity: 0.5;
+					opacity: 0.6;
 					filter: blur(60px);
 				}
 				.glow-left,
 				.glow-right {
-					width: 85%;
+					/* wider + more overhang so the color reaches the left/right
+					   edges - safe on mobile because .ambient-glow itself stays
+					   flush (width:100%) and absorbs this via its own
+					   overflow:hidden, it doesn't widen body */
+					width: 100%;
+				}
+				.glow-left {
+					left: -30%;
+				}
+				.glow-right {
+					right: -30%;
 				}
 				.glow-center {
 					width: 80%;
