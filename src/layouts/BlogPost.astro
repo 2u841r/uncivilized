@@ -33,14 +33,19 @@ const {
 			/* the ambient glow layers extend ~100px past the viewport on each
 			   side (to hide the blur-clip seam), which would otherwise create
 			   a horizontal scrollbar on every post page */
-			html {
+			html,
+			body {
 				overflow-x: hidden;
 				overflow-x: clip;
 			}
 			main {
-				width: calc(100% - 2em);
+				width: 100%;
 				max-width: 100%;
 				margin: 0;
+				/* global.css puts padding:3em 1em on main; without
+				   border-box, that padding adds on top of width:100% and
+				   pushes main past the viewport. */
+				box-sizing: border-box;
 			}
 			.hero-image {
 				width: 100%;
@@ -140,13 +145,16 @@ const {
 			.ambient-glow,
 			.ambient-glow-bottom {
 				position: absolute;
-				/* Wider than the viewport and centered, not 100%/left:0 - a
-				   blurred child clipped by this box's own overflow:hidden
-				   edge shows a hard seam right at that clip line (the blur
-				   has no pixel data beyond the box to blend from). Pushing
-				   the clip boundary off-screen keeps that seam invisible. */
-				left: -100px;
-				width: calc(100% + 200px);
+				/* Kept flush with the viewport (not wider) - an
+				   absolutely-positioned child's own box extent bubbles up
+				   into body's scrollable width even under overflow-x:hidden
+				   on html/body, which mobile browsers let touch-scroll drag
+				   into. The seam-hiding bleed instead lives on the
+				   .glow-blob children below, whose overflow is real child
+				   overflow and is fully absorbed by this box's own
+				   overflow:hidden without inflating body. */
+				left: 0;
+				width: 100%;
 				height: 900px;
 				max-height: 70vh;
 				overflow: hidden;
