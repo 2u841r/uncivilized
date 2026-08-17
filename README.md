@@ -1,63 +1,71 @@
-# Astro Starter Kit: Blog
+# uncivilized site
 
-```sh
-pnpm create astro@latest -- --template blog
-```
+Astro blog for the uncivilized documentary channel. Turns YouTube videos into blog posts: captions are downloaded, cleaned, and published as Markdown articles.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project structure
 
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+The git repo covers `site/` only. The sibling `data/` and `scripts/` folders live outside the repo on the local machine:
 
 ```text
+../data/                     # NOT in git (local working data)
+│   ├── videos.json          # video metadata (fetched from YouTube)
+│   ├── captions_raw/        # raw .vtt caption downloads
+│   ├── captions_clean/      # cleaned plain-text captions (.txt)
+│   ├── cleaning-prompt.md   # prompt for AI-assisted transcript cleaning
+│   └── thumbnails/          # downloaded video thumbnails
+../scripts/                  # NOT in git (Python pipeline)
+site/                        # this Astro project (git root)
 ├── public/
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
+│   ├── assets/thumbnails/   # hero images used by posts (in git)
+│   ├── components/
+│   ├── content/blog/        # the blog posts (.md)
+│   ├── layouts/
+│   └── pages/
 ├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+└── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Content pipeline
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Python scripts live in `../scripts/` (outside the repo) and operate on `../data/` (also outside the repo):
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+| Script | Action |
+| :----------------------------- | :------------------------------------------------------------ |
+| `download_captions.py`         | Download `.vtt` captions into `data/captions_raw/`            |
+| `clean_vtt.py`                 | Strip VTT markup into plain text in `data/captions_clean/`    |
+| `fetch_channel_videos.py`      | List channel videos into `data/videos.json`                   |
+| `fetch_video_details.py`       | Fetch per-video metadata                                      |
+| `build_blog_posts.py`          | Generate posts in `site/src/content/blog/` from `videos.json` + `captions_clean/` |
 
-Any static assets, like images, can be placed in the `public/` directory.
+Final transcript cleanup into publication-ready prose is done with an AI assistant using the rules in `data/cleaning-prompt.md`. When editing posts by hand, keep the YAML frontmatter byte-for-byte intact.
 
-## 🧞 Commands
+Each post's frontmatter includes `title`, `description`, `pubDate`, `heroImage`, `videoId`, `videoUrl`, and gradient `color*` fields used by the layout.
 
-All commands are run from the root of the project, from a terminal:
+## Commands
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
+All commands are run from `site/`:
+
+| Command                | Action                                        |
+| :--------------------- | :-------------------------------------------- |
+| `pnpm install`         | Installs dependencies                         |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`   |
+| `pnpm build`           | Build your production site to `./dist/`       |
+| `pnpm preview`         | Preview your build locally, before deploying  |
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+Per `AGENTS.md`, prefer background dev server mode:
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```sh
+astro dev --background   # start
+astro dev status         # check
+astro dev logs           # tail logs
+astro dev stop           # stop
+```
 
-## Credit
+## Docs
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- [Astro docs](https://docs.astro.build)
+- [Content collections](https://docs.astro.build/en/guides/content-collections/)
+
+Theme based on the [Astro Blog template](https://github.com/withastro/astro/tree/main/examples/blog).
