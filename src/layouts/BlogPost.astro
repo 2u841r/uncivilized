@@ -110,7 +110,9 @@ const {
 				width: 720px;
 				max-width: 100%;
 				margin: auto;
-				padding: 1em 0;
+				/* .title already has margin-bottom:1em after its <hr>; no
+				   padding-top here or the gap before the first line stacks. */
+				padding: 0 0 1em;
 				color: rgb(var(--gray-dark));
 				text-align: justify;
 				text-wrap: pretty;
@@ -254,6 +256,9 @@ const {
 				}
 				.glow-center {
 					width: 80%;
+				}
+				.title h1 {
+					font-size: 2em;
 				}
 			}
 		</style>
