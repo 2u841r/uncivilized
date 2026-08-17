@@ -141,25 +141,38 @@ const {
 			}
 			.ambient-glow {
 				top: 0;
-				/* Continuous taper, no flat "fully opaque" plateau - a plateau
-				   followed by a fade has a sudden change in rate right where
-				   the fade starts, which reads as a hard edge, especially
-				   where it overlaps the bottom glow's own opaque plateau in
-				   the margins beside the picture. */
-				mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+				/* Small plateau at the very top (matches the header, which
+				   wants strong solid color) then a long gradual taper. A
+				   plateau immediately followed by a fast fade reads as a
+				   hard edge - keeping the taper long and gradual avoids that
+				   while still leaving the layer visibly present most of the
+				   way down, so it has real overlap with the bottom glow's
+				   fade-in instead of both being faint at the same point. */
+				mask-image: linear-gradient(to bottom, black 0%, black 20%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 20%, transparent 100%);
 			}
 			.ambient-glow-bottom {
 				bottom: 0;
 				height: 700px;
-				/* This box's top edge often lands well above the picture's
-				   bottom (tall picture + title = tall glow-zone), overlapping
-				   the top glow's own range. Fading out toward the bottom
-				   alone isn't enough - without a fade-IN too, the layer
-				   appears at full opacity the instant its box starts, which
-				   is a hard edge right at that box's top boundary. */
-				mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
+				/* Ramps in, stays fully visible through the middle, then
+				   tapers out - a single-point peak (old version) meant this
+				   layer was only briefly at full strength, so where the top
+				   glow had already faded and this one hadn't ramped up yet,
+				   both were faint at once: a dark dip right between them. */
+				mask-image: linear-gradient(
+					to bottom,
+					transparent 0%,
+					black 20%,
+					black 60%,
+					transparent 100%
+				);
+				-webkit-mask-image: linear-gradient(
+					to bottom,
+					transparent 0%,
+					black 20%,
+					black 60%,
+					transparent 100%
+				);
 			}
 			.glow-blob {
 				position: absolute;
