@@ -5,9 +5,12 @@ pubDate: "Oct 29 2023"
 heroImage: "../../assets/thumbnails/9Z8qf4lfbZc.jpg"
 videoId: "9Z8qf4lfbZc"
 videoUrl: "https://www.youtube.com/watch?v=9Z8qf4lfbZc"
-colorLeft: "#9e7a2e"
-colorRight: "#9e6d2e"
-colorCenter: "#9e8e2e"
+colorLeft: "#9e712e"
+colorRight: "#9e902e"
+colorCenter: "#9e932e"
+colorLeftBottom: "#9e762e"
+colorCenterBottom: "#9f822e"
+colorRightBottom: "#9e5b2e"
 ---
 
 fre why are you here today I'm here

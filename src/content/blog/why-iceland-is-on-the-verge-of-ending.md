@@ -5,9 +5,12 @@ pubDate: "Jan 17 2025"
 heroImage: "../../assets/thumbnails/R96W5m7c5bM.jpg"
 videoId: "R96W5m7c5bM"
 videoUrl: "https://www.youtube.com/watch?v=R96W5m7c5bM"
-colorLeft: "#1a6fb2"
-colorRight: "#2574a7"
-colorCenter: "#2e739e"
+colorLeft: "#2173ab"
+colorRight: "#2874a4"
+colorCenter: "#2e799e"
+colorLeftBottom: "#1066bc"
+colorCenterBottom: "#2557a7"
+colorRightBottom: "#1e76ae"
 ---
 
 where are we we are inside a nice Canyon

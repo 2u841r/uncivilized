@@ -19,6 +19,9 @@ const blog = defineCollection({
 			colorLeft: z.string().optional(),
 			colorCenter: z.string().optional(),
 			colorRight: z.string().optional(),
+			colorLeftBottom: z.string().optional(),
+			colorCenterBottom: z.string().optional(),
+			colorRightBottom: z.string().optional(),
 		}),
 });
 

@@ -5,9 +5,12 @@ pubDate: "Nov 19 2023"
 heroImage: "../../assets/thumbnails/38qCfrVeHxo.jpg"
 videoId: "38qCfrVeHxo"
 videoUrl: "https://www.youtube.com/watch?v=38qCfrVeHxo"
-colorLeft: "#d19461"
-colorRight: "#d17f61"
-colorCenter: "#d18361"
+colorLeft: "#d18861"
+colorRight: "#d18161"
+colorCenter: "#d18161"
+colorLeftBottom: "#d19661"
+colorCenterBottom: "#d18261"
+colorRightBottom: "#d17861"
 ---
 
 you've probably been seeing Palestine

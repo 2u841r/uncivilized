@@ -5,9 +5,12 @@ pubDate: "May 20 2025"
 heroImage: "../../assets/thumbnails/H0tSYW-Qalw.jpg"
 videoId: "H0tSYW-Qalw"
 videoUrl: "https://www.youtube.com/watch?v=H0tSYW-Qalw"
-colorLeft: "#9e432e"
-colorRight: "#9e622e"
-colorCenter: "#9f7a2d"
+colorLeft: "#a1392b"
+colorRight: "#a1382b"
+colorCenter: "#9e4f2e"
+colorLeftBottom: "#9e492e"
+colorCenterBottom: "#a89224"
+colorRightBottom: "#9e6e2e"
 ---
 
 In 1899, a poem was published.

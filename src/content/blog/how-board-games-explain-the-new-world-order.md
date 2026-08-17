@@ -5,9 +5,12 @@ pubDate: "Feb 12 2026"
 heroImage: "../../assets/thumbnails/YwcXLZE-EHo.jpg"
 videoId: "YwcXLZE-EHo"
 videoUrl: "https://www.youtube.com/watch?v=YwcXLZE-EHo"
-colorLeft: "#2e5a9e"
-colorRight: "#9e2e34"
-colorCenter: "#a98131"
+colorLeft: "#2e589e"
+colorRight: "#9e2e33"
+colorCenter: "#b25534"
+colorLeftBottom: "#2059ac"
+colorCenterBottom: "#b48d29"
+colorRightBottom: "#a12b34"
 ---
 
 Venezuela, Greenland, and Iran. Three

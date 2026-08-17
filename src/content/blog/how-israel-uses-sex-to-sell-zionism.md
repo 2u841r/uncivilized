@@ -5,9 +5,12 @@ pubDate: "Sep 20 2024"
 heroImage: "../../assets/thumbnails/OHJEpnCL5nE.jpg"
 videoId: "OHJEpnCL5nE"
 videoUrl: "https://www.youtube.com/watch?v=OHJEpnCL5nE"
-colorLeft: "#9e792e"
-colorRight: "#2e4d9e"
-colorCenter: "#9e3e2e"
+colorLeft: "#652e9e"
+colorRight: "#2f57a3"
+colorCenter: "#be6c37"
+colorLeftBottom: "#9e7d2e"
+colorCenterBottom: "#2e409e"
+colorRightBottom: "#9e2e6a"
 ---
 
 for a long time Israel has used sex to

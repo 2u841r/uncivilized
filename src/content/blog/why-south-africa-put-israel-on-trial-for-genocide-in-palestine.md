@@ -5,9 +5,12 @@ pubDate: "Jan 12 2024"
 heroImage: "../../assets/thumbnails/Exo91VEQQKs.jpg"
 videoId: "Exo91VEQQKs"
 videoUrl: "https://www.youtube.com/watch?v=Exo91VEQQKs"
-colorLeft: "#31a960"
-colorRight: "#7fb835"
-colorCenter: "#2e9e63"
+colorLeft: "#40c89b"
+colorRight: "#64d161"
+colorCenter: "#61d16d"
+colorLeftBottom: "#a4306b"
+colorCenterBottom: "#2e759e"
+colorRightBottom: "#9e442e"
 ---
 
 South Africa is taking aparte Israel to

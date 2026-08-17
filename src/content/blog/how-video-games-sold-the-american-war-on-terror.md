@@ -5,9 +5,12 @@ pubDate: "Oct 10 2024"
 heroImage: "../../assets/thumbnails/pVL24wpnN44.jpg"
 videoId: "pVL24wpnN44"
 videoUrl: "https://www.youtube.com/watch?v=pVL24wpnN44"
-colorLeft: "#2e809e"
-colorRight: "#b96b13"
-colorCenter: "#9e6a2e"
+colorLeft: "#2e7b9e"
+colorRight: "#be700e"
+colorCenter: "#ad6a1f"
+colorLeftBottom: "#2e999e"
+colorCenterBottom: "#9e6b2e"
+colorRightBottom: "#b66516"
 ---
 
 I just freed hostages from terrorists

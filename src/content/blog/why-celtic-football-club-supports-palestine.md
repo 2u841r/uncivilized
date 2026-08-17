@@ -5,9 +5,12 @@ pubDate: "Dec 25 2023"
 heroImage: "../../assets/thumbnails/FVlYRtWj0nk.jpg"
 videoId: "FVlYRtWj0nk"
 videoUrl: "https://www.youtube.com/watch?v=FVlYRtWj0nk"
-colorLeft: "#30a566"
-colorRight: "#ab9232"
-colorCenter: "#a43034"
+colorLeft: "#21ab9f"
+colorRight: "#2e9e65"
+colorCenter: "#2e7b9e"
+colorLeftBottom: "#c7a93d"
+colorCenterBottom: "#b73a35"
+colorRightBottom: "#c04d38"
 ---
 
 famine football and Palestine what do

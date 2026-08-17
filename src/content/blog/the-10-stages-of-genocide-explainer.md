@@ -5,9 +5,12 @@ pubDate: "Oct 19 2023"
 heroImage: "../../assets/thumbnails/BdpdTapzLjg.jpg"
 videoId: "BdpdTapzLjg"
 videoUrl: "https://www.youtube.com/watch?v=BdpdTapzLjg"
-colorLeft: "#9e912e"
-colorRight: "#aa8a22"
-colorCenter: "#a0492e"
+colorLeft: "#3c2e9e"
+colorRight: "#9e392e"
+colorCenter: "#a0542e"
+colorLeftBottom: "#af9f1d"
+colorCenterBottom: "#d6c01e"
+colorRightBottom: "#bda80f"
 ---
 
 there are 10 stages of genocide the

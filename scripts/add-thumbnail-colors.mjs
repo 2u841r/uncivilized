@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Compute ambient colors from a 3x3 grid sample of each post's hero
-// thumbnail, and write colorLeft/colorCenter/colorRight into its frontmatter.
+// Compute ambient colors from top/bottom bands of each post's hero
+// thumbnail, and write color*/color*Bottom fields into its frontmatter.
 //
 // Usage: node scripts/add-thumbnail-colors.mjs
 
@@ -61,10 +61,9 @@ function hslToRgb(h, s, l) {
 }
 
 // Weight each pixel's contribution to a region's average by its own
-// saturation, so vivid pixels (a logo) pull the result while flat/dark
-// background pixels contribute almost nothing — same idea as Vibrant.js /
-// Spotify Canvas. Returns raw (unboosted) {r,g,b} so callers can blend
-// several cells together before boosting saturation/lightness once.
+// saturation, so vivid pixels (a logo/flame/text) pull the result while
+// flat/dark background pixels contribute almost nothing - same idea as
+// Vibrant.js / Spotify Canvas. Returns raw (unboosted) {r,g,b}.
 async function rawCellColor(imagePath, left, top, width, height) {
 	const { data, info } = await sharp(imagePath)
 		.extract({ left, top, width, height })
@@ -105,13 +104,6 @@ async function rawCellColor(imagePath, left, top, width, height) {
 	return { r: sr / count, g: sg / count, b: sb / count };
 }
 
-function blendRaw(cells) {
-	const r = cells.reduce((sum, c) => sum + c.r, 0) / cells.length;
-	const g = cells.reduce((sum, c) => sum + c.g, 0) / cells.length;
-	const b = cells.reduce((sum, c) => sum + c.b, 0) / cells.length;
-	return { r, g, b };
-}
-
 function boostToHex({ r, g, b }) {
 	const [h, s, l] = rgbToHsl(r, g, b);
 	const boostedS = Math.min(1, Math.max(s, 0.55));
@@ -121,40 +113,33 @@ function boostToHex({ r, g, b }) {
 }
 
 async function sideColors(imagePath) {
-	// A 2-point (left third / right third) sample only ever sees 2 colors,
-	// even when a thumbnail has 5+. Sample a 3x3 grid instead and blend
-	// each column's cells together — the dead-center cell (almost always a
-	// face, not a color) is dropped from the center column's blend.
+	// Blending cells that are far apart (e.g. blue smoke top-right + yellow
+	// text bottom-right) produces a color that doesn't exist anywhere in the
+	// picture - blue+yellow averages toward green. Instead, sample a band
+	// near the top and a band near the bottom independently, each split into
+	// left/center/right, and use each region's own color as-is - no
+	// cross-region blending. Top band feeds the glow behind the header;
+	// bottom band feeds a second glow under the picture/title.
 	const meta = await sharp(imagePath).metadata();
 	const w = meta.width;
 	const h = meta.height;
 	const colW = Math.floor(w / 3);
-	const rowH = Math.floor(h / 3);
+	const bandH = Math.floor(h * 0.4);
 
-	// cells[row][col]
-	const cells = [];
-	for (let row = 0; row < 3; row++) {
-		const rowCells = [];
-		for (let col = 0; col < 3; col++) {
-			const left = col * colW;
-			const top = row * rowH;
-			const width = col === 2 ? w - left : colW;
-			const height = row === 2 ? h - top : rowH;
-			rowCells.push(await rawCellColor(imagePath, left, top, width, height));
-		}
-		cells.push(rowCells);
+	async function band(top) {
+		const left = await rawCellColor(imagePath, 0, top, colW, bandH);
+		const center = await rawCellColor(imagePath, colW, top, colW, bandH);
+		const right = await rawCellColor(imagePath, w - colW, top, colW, bandH);
+		return {
+			left: boostToHex(left),
+			center: boostToHex(center),
+			right: boostToHex(right),
+		};
 	}
 
-	const leftRaw = blendRaw([cells[0][0], cells[1][0], cells[2][0]]);
-	const rightRaw = blendRaw([cells[0][2], cells[1][2], cells[2][2]]);
-	// skip cells[1][1] (dead center, usually a face)
-	const centerRaw = blendRaw([cells[0][1], cells[2][1]]);
-
-	return {
-		left: boostToHex(leftRaw),
-		center: boostToHex(centerRaw),
-		right: boostToHex(rightRaw),
-	};
+	const top = await band(0);
+	const bottom = await band(h - bandH);
+	return { top, bottom };
 }
 
 function extractFrontmatter(content) {
@@ -199,14 +184,17 @@ async function main() {
 			continue;
 		}
 
-		frontmatter = setField(frontmatter, 'colorLeft', colors.left);
-		frontmatter = setField(frontmatter, 'colorCenter', colors.center);
-		frontmatter = setField(frontmatter, 'colorRight', colors.right);
+		frontmatter = setField(frontmatter, 'colorLeft', colors.top.left);
+		frontmatter = setField(frontmatter, 'colorCenter', colors.top.center);
+		frontmatter = setField(frontmatter, 'colorRight', colors.top.right);
+		frontmatter = setField(frontmatter, 'colorLeftBottom', colors.bottom.left);
+		frontmatter = setField(frontmatter, 'colorCenterBottom', colors.bottom.center);
+		frontmatter = setField(frontmatter, 'colorRightBottom', colors.bottom.right);
 		writeFileSync(filePath, `---\n${frontmatter}\n---\n\n${body}`, 'utf-8');
 		updated += 1;
 	}
 
-	console.log(`updated ${updated}/${files.length} posts with colorLeft/colorCenter/colorRight`);
+	console.log(`updated ${updated}/${files.length} posts with top/bottom ambient colors`);
 }
 
 main();

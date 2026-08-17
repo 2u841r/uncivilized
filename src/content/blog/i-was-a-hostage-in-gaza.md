@@ -5,9 +5,12 @@ pubDate: "May 23 2024"
 heroImage: "../../assets/thumbnails/2oeuqvzmdps.jpg"
 videoId: "2oeuqvzmdps"
 videoUrl: "https://www.youtube.com/watch?v=2oeuqvzmdps"
-colorLeft: "#c6d161"
-colorRight: "#799e2e"
-colorCenter: "#a44530"
+colorLeft: "#61bed1"
+colorRight: "#8da931"
+colorCenter: "#9f4c2e"
+colorLeftBottom: "#9e962e"
+colorCenterBottom: "#9e442e"
+colorRightBottom: "#659e2e"
 ---
 
 [Song] I got

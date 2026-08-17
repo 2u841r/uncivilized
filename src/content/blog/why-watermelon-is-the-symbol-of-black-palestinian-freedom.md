@@ -5,9 +5,12 @@ pubDate: "Aug 29 2024"
 heroImage: "../../assets/thumbnails/YQIjFy94tGw.jpg"
 videoId: "YQIjFy94tGw"
 videoUrl: "https://www.youtube.com/watch?v=YQIjFy94tGw"
-colorLeft: "#3c3bc6"
-colorRight: "#3656b8"
-colorCenter: "#af335d"
+colorLeft: "#6181d1"
+colorRight: "#5696dc"
+colorCenter: "#8d49ca"
+colorLeftBottom: "#9e2e3a"
+colorCenterBottom: "#9e402e"
+colorRightBottom: "#9e3d2e"
 ---
 
 the watermelon wasn't always an

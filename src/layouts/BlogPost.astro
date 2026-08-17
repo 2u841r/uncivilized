@@ -19,6 +19,9 @@ const {
 	colorLeft,
 	colorCenter,
 	colorRight,
+	colorLeftBottom,
+	colorCenterBottom,
+	colorRightBottom,
 } = Astro.props;
 ---
 
@@ -94,8 +97,18 @@ const {
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
+			.glow-zone {
+				position: relative;
+			}
+			.glow-zone .hero-image,
+			.glow-zone .title {
+				position: relative;
+				z-index: 1;
+			}
 			.title {
-				margin-bottom: 1em;
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: 0 auto 1em;
 				padding: 1em 0;
 				text-align: center;
 				line-height: 1;
@@ -110,9 +123,9 @@ const {
 			.last-updated-on {
 				font-style: italic;
 			}
-			.ambient-glow {
+			.ambient-glow,
+			.ambient-glow-bottom {
 				position: absolute;
-				top: 0;
 				left: 0;
 				width: 100%;
 				height: 900px;
@@ -120,12 +133,22 @@ const {
 				overflow: hidden;
 				pointer-events: none;
 				z-index: 0;
+			}
+			.ambient-glow {
+				top: 0;
 				/* fade the whole layer to transparent before it hits max-height,
 				   instead of hard-cutting the blurred blobs */
 				mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
 				-webkit-mask-image: linear-gradient(to bottom, black 0%, black 55%, transparent 100%);
 			}
-			.ambient-glow .glow-blob {
+			.ambient-glow-bottom {
+				bottom: 0;
+				height: 700px;
+				/* fades upward into the picture instead of a hard top edge */
+				mask-image: linear-gradient(to top, black 0%, black 55%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to top, black 0%, black 55%, transparent 100%);
+			}
+			.glow-blob {
 				position: absolute;
 				top: -30%;
 				width: 65%;
@@ -137,17 +160,17 @@ const {
 				   (the hard split reported on mobile) */
 				filter: blur(40px);
 			}
-			.ambient-glow .glow-left {
+			.glow-left {
 				left: -18%;
 				--glow-color: var(--color-left);
 			}
-			.ambient-glow .glow-center {
+			.glow-center {
 				left: 50%;
 				transform: translateX(-50%);
 				width: 55%;
 				--glow-color: var(--color-center, var(--color-left));
 			}
-			.ambient-glow .glow-right {
+			.glow-right {
 				right: -18%;
 				--glow-color: var(--color-right);
 			}
@@ -162,15 +185,18 @@ const {
 				.ambient-glow {
 					height: 500px;
 				}
-				.ambient-glow .glow-blob {
+				.ambient-glow-bottom {
+					height: 400px;
+				}
+				.glow-blob {
 					opacity: 0.5;
 					filter: blur(60px);
 				}
-				.ambient-glow .glow-left,
-				.ambient-glow .glow-right {
+				.glow-left,
+				.glow-right {
 					width: 85%;
 				}
-				.ambient-glow .glow-center {
+				.glow-center {
 					width: 80%;
 				}
 			}
@@ -191,35 +217,45 @@ const {
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{videoId ? (
-						<div class="video-embed" data-video-id={videoId}>
-							{heroImage && (
+				<div class="glow-zone">
+					{colorLeftBottom && colorRightBottom && (
+						<div
+							class="ambient-glow-bottom"
+							style={`--color-left:${colorLeftBottom}; --color-center:${colorCenterBottom ?? ''}; --color-right:${colorRightBottom};`}
+						>
+							<div class="glow-blob glow-left" />
+							{colorCenterBottom && <div class="glow-blob glow-center" />}
+							<div class="glow-blob glow-right" />
+						</div>
+					)}
+					<div class="hero-image">
+						{videoId ? (
+							<div class="video-embed" data-video-id={videoId}>
+								{heroImage && (
+									<Image
+										width={1020}
+										height={510}
+										src={heroImage}
+										alt={`Play video: ${title}`}
+										transition:name={`thumb-${id}`}
+									/>
+								)}
+								<div class="play-button" aria-hidden="true">
+									<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+								</div>
+							</div>
+						) : (
+							heroImage && (
 								<Image
 									width={1020}
 									height={510}
 									src={heroImage}
-									alt={`Play video: ${title}`}
+									alt=""
 									transition:name={`thumb-${id}`}
 								/>
-							)}
-							<div class="play-button" aria-hidden="true">
-								<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-							</div>
-						</div>
-					) : (
-						heroImage && (
-							<Image
-								width={1020}
-								height={510}
-								src={heroImage}
-								alt=""
-								transition:name={`thumb-${id}`}
-							/>
-						)
-					)}
-				</div>
-				<div class="prose">
+							)
+						)}
+					</div>
 					<div class="title">
 						<div class="date" transition:name={`date-${id}`}>
 							<FormattedDate date={pubDate} />
@@ -234,6 +270,8 @@ const {
 						<h1 transition:name={`title-${id}`}>{title}</h1>
 						<hr />
 					</div>
+				</div>
+				<div class="prose">
 					<slot />
 				</div>
 			</article>

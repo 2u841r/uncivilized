@@ -5,9 +5,12 @@ pubDate: "Dec 04 2023"
 heroImage: "../../assets/thumbnails/sacoJTTsTTc.jpg"
 videoId: "sacoJTTsTTc"
 videoUrl: "https://www.youtube.com/watch?v=sacoJTTsTTc"
-colorLeft: "#9e6a2e"
-colorRight: "#9e662e"
-colorCenter: "#9e662e"
+colorLeft: "#9e6b2e"
+colorRight: "#9e652e"
+colorCenter: "#9e672e"
+colorLeftBottom: "#9e642e"
+colorCenterBottom: "#9e692e"
+colorRightBottom: "#9e662e"
 ---
 
 over 5 million algerians were killed by

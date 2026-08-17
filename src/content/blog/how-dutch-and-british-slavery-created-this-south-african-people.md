@@ -5,9 +5,12 @@ pubDate: "May 04 2023"
 heroImage: "../../assets/thumbnails/5S3CGUfKtwI.jpg"
 videoId: "5S3CGUfKtwI"
 videoUrl: "https://www.youtube.com/watch?v=5S3CGUfKtwI"
-colorLeft: "#d1bd61"
-colorRight: "#d18e61"
-colorCenter: "#d1ab61"
+colorLeft: "#d7c05b"
+colorRight: "#d19361"
+colorCenter: "#dcc156"
+colorLeftBottom: "#c5b039"
+colorCenterBottom: "#d0bf59"
+colorRightBottom: "#ce8156"
 ---
 
 I'm looking for Butterbean Curry

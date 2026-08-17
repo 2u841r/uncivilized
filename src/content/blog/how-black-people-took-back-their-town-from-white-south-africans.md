@@ -5,9 +5,12 @@ pubDate: "May 14 2023"
 heroImage: "../../assets/thumbnails/fko46mx-c48.jpg"
 videoId: "fko46mx-c48"
 videoUrl: "https://www.youtube.com/watch?v=fko46mx-c48"
-colorLeft: "#d0aa5e"
-colorRight: "#d16171"
-colorCenter: "#9e652e"
+colorLeft: "#c59239"
+colorRight: "#d1617c"
+colorCenter: "#2e5f9e"
+colorLeftBottom: "#cfac5b"
+colorCenterBottom: "#a56f30"
+colorRightBottom: "#61aad1"
 ---
 
 what is your dream
