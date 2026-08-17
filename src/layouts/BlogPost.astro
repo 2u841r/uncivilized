@@ -30,6 +30,13 @@ const {
 	<head>
 		<BaseHead title={title} description={description} image={heroImage?.src} />
 		<style>
+			/* the ambient glow layers extend ~100px past the viewport on each
+			   side (to hide the blur-clip seam), which would otherwise create
+			   a horizontal scrollbar on every post page */
+			html {
+				overflow-x: hidden;
+				overflow-x: clip;
+			}
 			main {
 				width: calc(100% - 2em);
 				max-width: 100%;
