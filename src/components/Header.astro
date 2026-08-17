@@ -59,6 +59,14 @@ import HeaderLink from './HeaderLink.astro';
 		padding: 0 1em;
 		background: #000;
 		border-bottom: 1px solid rgb(var(--gray-light));
+		/* Astro scoped styles are per-component: a "header { z-index: 1 }"
+		   rule written in a page/layout never reaches this element, since
+		   it's rendered by this component with a different scope hash.
+		   Absolutely-positioned siblings (the ambient glow) paint above
+		   static in-flow content regardless of z-index in that case, so
+		   the header must position+stack itself. */
+		position: relative;
+		z-index: 1;
 	}
 	h2 {
 		margin: 0;
