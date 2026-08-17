@@ -60,20 +60,21 @@ function hslToRgb(h, s, l) {
 	return [r, g, b].map((v) => Math.round((v + m) * 255));
 }
 
-function hueDistance(a, b) {
-	const d = Math.abs(a - b) % 360;
-	return d > 180 ? 360 - d : d;
-}
-
 // Averaging ALL pixels weighted by saturation still blends distinct
 // saturated colors together (a blue wall + a yellow banner in the same
-// band averages toward green in raw RGB, before any hue math even runs) -
-// and filtering by saturation MAGNITUDE alone doesn't help either, since
-// two totally different hues (blue wall, yellow banner) can both be highly
-// saturated. Instead find the single most-saturated pixel, then average
-// only the pixels whose HUE is close to it - the actual color family that
-// pixel belongs to - rather than the whole region. Returns raw
-// (unboosted) {r,g,b}.
+// band averages toward green in raw RGB, before any hue math even runs).
+// Clustering around the single most-saturated PIXEL doesn't work either:
+// HSL saturation spikes artificially for near-black pixels (a dark navy
+// pixel can out-rank a genuinely vivid red one), so a JPEG-noise outlier
+// can win over a color family that actually covers most of the region.
+//
+// Instead, bucket pixels into 12 hue bins and sum each bin's total s^2
+// weight (its "visual mass" - vivid AND covers real area), then pick the
+// bin family with the most total mass, not the single brightest pixel.
+// Returns raw (unboosted) {r,g,b}.
+const HUE_BINS = 12;
+const HUE_BIN_SIZE = 360 / HUE_BINS;
+
 async function rawCellColor(imagePath, left, top, width, height) {
 	const { data, info } = await sharp(imagePath)
 		.extract({ left, top, width, height })
@@ -82,49 +83,68 @@ async function rawCellColor(imagePath, left, top, width, height) {
 		.toBuffer({ resolveWithObject: true });
 
 	const channels = info.channels;
-	const pixels = [];
-	let peak = null;
+	const binWeight = new Array(HUE_BINS).fill(0);
+	const binR = new Array(HUE_BINS).fill(0);
+	const binG = new Array(HUE_BINS).fill(0);
+	const binB = new Array(HUE_BINS).fill(0);
 	let sr = 0;
 	let sg = 0;
 	let sb = 0;
 	let count = 0;
+	let maxS = 0;
 
 	for (let i = 0; i < data.length; i += channels) {
 		const r = data[i];
 		const g = data[i + 1];
 		const b = data[i + 2];
 		const [h, s] = rgbToHsl(r, g, b);
-		const px = { r, g, b, h, s };
-		pixels.push(px);
-		if (!peak || s > peak.s) peak = px;
+		if (s > maxS) maxS = s;
+		if (s >= 0.15) {
+			const weight = s * s;
+			const bin = Math.floor(h / HUE_BIN_SIZE) % HUE_BINS;
+			binWeight[bin] += weight;
+			binR[bin] += r * weight;
+			binG[bin] += g * weight;
+			binB[bin] += b * weight;
+		}
 		sr += r;
 		sg += g;
 		sb += b;
 		count += 1;
 	}
 
-	if (!peak || peak.s < 0.08) {
+	if (maxS < 0.08) {
 		// whole region is basically greyscale, no real color to cluster on
 		return { r: sr / count, g: sg / count, b: sb / count };
 	}
 
-	// cluster on pixels close in hue to the peak pixel's color family,
-	// ignoring pixels that are themselves too washed-out to have a
-	// meaningful hue
+	// pick the hue bin (plus its two neighbors, to avoid an arbitrary hard
+	// cut at a bin boundary) with the most total weighted mass
+	let bestBin = 0;
+	let bestMass = -1;
+	for (let i = 0; i < HUE_BINS; i++) {
+		const mass =
+			binWeight[i] +
+			binWeight[(i - 1 + HUE_BINS) % HUE_BINS] * 0.5 +
+			binWeight[(i + 1) % HUE_BINS] * 0.5;
+		if (mass > bestMass) {
+			bestMass = mass;
+			bestBin = i;
+		}
+	}
+
 	let cr = 0;
 	let cg = 0;
 	let cb = 0;
-	let cn = 0;
-	for (const p of pixels) {
-		if (p.s >= 0.15 && hueDistance(p.h, peak.h) <= 35) {
-			cr += p.r;
-			cg += p.g;
-			cb += p.b;
-			cn += 1;
-		}
+	let cw = 0;
+	for (const bin of [bestBin, (bestBin - 1 + HUE_BINS) % HUE_BINS, (bestBin + 1) % HUE_BINS]) {
+		cr += binR[bin];
+		cg += binG[bin];
+		cb += binB[bin];
+		cw += binWeight[bin];
 	}
-	if (cn === 0) return { r: peak.r, g: peak.g, b: peak.b };
-	return { r: cr / cn, g: cg / cn, b: cb / cn };
+	if (cw === 0) return { r: sr / count, g: sg / count, b: sb / count };
+	return { r: cr / cw, g: cg / cw, b: cb / cw };
 }
 
 function boostToHex({ r, g, b }) {

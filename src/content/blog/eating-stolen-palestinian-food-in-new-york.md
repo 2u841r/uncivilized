@@ -5,12 +5,12 @@ pubDate: "Feb 22 2023"
 heroImage: "../../assets/thumbnails/1s6zgGAH7XI.jpg"
 videoId: "1s6zgGAH7XI"
 videoUrl: "https://www.youtube.com/watch?v=1s6zgGAH7XI"
-colorLeft: "#ccb342"
-colorRight: "#c6623a"
-colorCenter: "#ad1f72"
-colorLeftBottom: "#422e9e"
-colorCenterBottom: "#3fb8f3"
-colorRightBottom: "#2e6f9e"
+colorLeft: "#caaf37"
+colorRight: "#c86741"
+colorCenter: "#c88c41"
+colorLeftBottom: "#ccb450"
+colorCenterBottom: "#d19561"
+colorRightBottom: "#c05a34"
 ---
 
 foreign

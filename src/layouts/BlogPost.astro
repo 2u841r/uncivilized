@@ -147,8 +147,14 @@ const {
 			.ambient-glow-bottom {
 				bottom: 0;
 				height: 700px;
-				mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-				-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+				/* This box's top edge often lands well above the picture's
+				   bottom (tall picture + title = tall glow-zone), overlapping
+				   the top glow's own range. Fading out toward the bottom
+				   alone isn't enough - without a fade-IN too, the layer
+				   appears at full opacity the instant its box starts, which
+				   is a hard edge right at that box's top boundary. */
+				mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
+				-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
 			}
 			.glow-blob {
 				position: absolute;

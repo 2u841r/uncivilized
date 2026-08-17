@@ -5,12 +5,12 @@ pubDate: "May 23 2024"
 heroImage: "../../assets/thumbnails/2oeuqvzmdps.jpg"
 videoId: "2oeuqvzmdps"
 videoUrl: "https://www.youtube.com/watch?v=2oeuqvzmdps"
-colorLeft: "#5ea3d4"
-colorRight: "#619dd1"
-colorCenter: "#575757"
-colorLeftBottom: "#6179d1"
-colorCenterBottom: "#9e502e"
-colorRightBottom: "#7b9e2e"
+colorLeft: "#54a7de"
+colorRight: "#849e2e"
+colorCenter: "#9e4c2e"
+colorLeftBottom: "#969e2e"
+colorCenterBottom: "#aa4c22"
+colorRightBottom: "#7fa725"
 ---
 
 [Song] I got

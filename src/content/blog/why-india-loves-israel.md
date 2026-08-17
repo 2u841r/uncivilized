@@ -5,12 +5,12 @@ pubDate: "Nov 27 2024"
 heroImage: "../../assets/thumbnails/0JQ_2of4OHQ.jpg"
 videoId: "0JQ_2of4OHQ"
 videoUrl: "https://www.youtube.com/watch?v=0JQ_2of4OHQ"
-colorLeft: "#a8482f"
-colorRight: "#a74a31"
-colorCenter: "#bd5837"
-colorLeftBottom: "#a94c2f"
-colorCenterBottom: "#2e569e"
-colorRightBottom: "#a6482c"
+colorLeft: "#a54228"
+colorRight: "#a64126"
+colorCenter: "#a44c30"
+colorLeftBottom: "#a9472b"
+colorCenterBottom: "#d18661"
+colorRightBottom: "#a64226"
 ---
 
 India really loves Israel and the

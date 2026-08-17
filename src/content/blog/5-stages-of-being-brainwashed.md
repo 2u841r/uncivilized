@@ -5,12 +5,12 @@ pubDate: "Aug 10 2024"
 heroImage: "../../assets/thumbnails/ouVLarbp_x4.jpg"
 videoId: "ouVLarbp_x4"
 videoUrl: "https://www.youtube.com/watch?v=ouVLarbp_x4"
-colorLeft: "#2e7e9e"
-colorRight: "#2e7a9e"
-colorCenter: "#b79a35"
-colorLeftBottom: "#2e9e9e"
-colorCenterBottom: "#9e792e"
-colorRightBottom: "#1528b7"
+colorLeft: "#2e759e"
+colorRight: "#2e6b9e"
+colorCenter: "#d1bb61"
+colorLeftBottom: "#2e999e"
+colorCenterBottom: "#9e752e"
+colorRightBottom: "#0912c3"
 ---
 
 did you know about human zoos live human

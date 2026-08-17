@@ -5,12 +5,12 @@ pubDate: "Mar 19 2026"
 heroImage: "../../assets/thumbnails/B1jirEhKSg8.jpg"
 videoId: "B1jirEhKSg8"
 videoUrl: "https://www.youtube.com/watch?v=B1jirEhKSg8"
-colorLeft: "#cd8c53"
-colorRight: "#6181d1"
-colorCenter: "#6172d1"
-colorLeftBottom: "#cf8658"
-colorCenterBottom: "#d18a60"
-colorRightBottom: "#5c7ad0"
+colorLeft: "#d99959"
+colorRight: "#5e80d4"
+colorCenter: "#dab80e"
+colorLeftBottom: "#d78c5b"
+colorCenterBottom: "#d6895c"
+colorRightBottom: "#4769ca"
 ---
 
 Israel will not last forever.

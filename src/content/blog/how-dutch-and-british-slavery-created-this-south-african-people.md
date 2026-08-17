@@ -5,12 +5,12 @@ pubDate: "May 04 2023"
 heroImage: "../../assets/thumbnails/5S3CGUfKtwI.jpg"
 videoId: "5S3CGUfKtwI"
 videoUrl: "https://www.youtube.com/watch?v=5S3CGUfKtwI"
-colorLeft: "#2e399e"
-colorRight: "#372d9f"
-colorCenter: "#3c2e9e"
-colorLeftBottom: "#2e389e"
-colorCenterBottom: "#d1bb61"
-colorRightBottom: "#d19d61"
+colorLeft: "#e5c94d"
+colorRight: "#d19361"
+colorCenter: "#ebca47"
+colorLeftBottom: "#d3be3f"
+colorCenterBottom: "#ddc955"
+colorRightBottom: "#c86f41"
 ---
 
 I'm looking for Butterbean Curry

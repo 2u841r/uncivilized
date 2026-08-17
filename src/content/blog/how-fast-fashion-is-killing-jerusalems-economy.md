@@ -5,12 +5,12 @@ pubDate: "Apr 20 2023"
 heroImage: "../../assets/thumbnails/gxiPR75j3wc.jpg"
 videoId: "gxiPR75j3wc"
 videoUrl: "https://www.youtube.com/watch?v=gxiPR75j3wc"
-colorLeft: "#2e9e2e"
-colorRight: "#2e9e2e"
-colorCenter: "#2e3f9e"
-colorLeftBottom: "#2e409e"
-colorCenterBottom: "#2e599e"
-colorRightBottom: "#392e9e"
+colorLeft: "#dfba26"
+colorRight: "#a2632f"
+colorCenter: "#d3ad3d"
+colorLeftBottom: "#ce9558"
+colorCenterBottom: "#b55435"
+colorRightBottom: "#a64630"
 ---
 
 [Music]

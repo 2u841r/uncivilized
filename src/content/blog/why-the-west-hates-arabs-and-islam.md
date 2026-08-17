@@ -5,12 +5,12 @@ pubDate: "Nov 12 2025"
 heroImage: "../../assets/thumbnails/oUcPYLq1Y8c.jpg"
 videoId: "oUcPYLq1Y8c"
 videoUrl: "https://www.youtube.com/watch?v=oUcPYLq1Y8c"
-colorLeft: "#2e769e"
-colorRight: "#9e2e9e"
-colorCenter: "#595959"
-colorLeftBottom: "#2e4f9e"
-colorCenterBottom: "#6179d1"
-colorRightBottom: "#2e5b9e"
+colorLeft: "#a52927"
+colorRight: "#9e602e"
+colorCenter: "#9e392e"
+colorLeftBottom: "#2e559e"
+colorCenterBottom: "#9e5d2e"
+colorRightBottom: "#9e642e"
 ---
 
 Does the West hate Arabs and Islam?

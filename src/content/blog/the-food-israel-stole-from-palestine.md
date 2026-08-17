@@ -5,12 +5,12 @@ pubDate: "Mar 10 2023"
 heroImage: "../../assets/thumbnails/HuvKTzhlVpo.jpg"
 videoId: "HuvKTzhlVpo"
 videoUrl: "https://www.youtube.com/watch?v=HuvKTzhlVpo"
-colorLeft: "#ad1f7d"
-colorRight: "#2e9e4d"
-colorCenter: "#2e859e"
-colorLeftBottom: "#d1a361"
-colorCenterBottom: "#c06d2a"
-colorRightBottom: "#c88441"
+colorLeft: "#b71581"
+colorRight: "#b21a7a"
+colorCenter: "#b5177f"
+colorLeftBottom: "#cc8d50"
+colorCenterBottom: "#d17326"
+colorRightBottom: "#ca8240"
 ---
 
 it's an incredible

@@ -5,12 +5,12 @@ pubDate: "Mar 02 2024"
 heroImage: "../../assets/thumbnails/jKbuD2Oj_y4.jpg"
 videoId: "jKbuD2Oj_y4"
 videoUrl: "https://www.youtube.com/watch?v=jKbuD2Oj_y4"
-colorLeft: "#2244aa"
-colorRight: "#c36839"
-colorCenter: "#d1ad61"
-colorLeftBottom: "#ab5432"
-colorCenterBottom: "#9e3a2e"
-colorRightBottom: "#9f372d"
+colorLeft: "#a63d30"
+colorRight: "#d18861"
+colorCenter: "#d1a161"
+colorLeftBottom: "#af4633"
+colorCenterBottom: "#9f372d"
+colorRightBottom: "#a53027"
 ---
 
 the atas Lions as the world gathered to

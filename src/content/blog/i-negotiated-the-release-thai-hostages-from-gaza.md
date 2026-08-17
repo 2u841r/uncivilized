@@ -6,11 +6,11 @@ heroImage: "../../assets/thumbnails/BznL4d9BCGA.jpg"
 videoId: "BznL4d9BCGA"
 videoUrl: "https://www.youtube.com/watch?v=BznL4d9BCGA"
 colorLeft: "#595959"
-colorRight: "#d1d161"
-colorCenter: "#86d161"
-colorLeftBottom: "#9e7e2e"
-colorCenterBottom: "#50bbcc"
-colorRightBottom: "#9e722e"
+colorRight: "#595959"
+colorCenter: "#c87842"
+colorLeftBottom: "#28a49f"
+colorCenterBottom: "#9e5d2e"
+colorRightBottom: "#9e782e"
 ---
 
 we're About to finally Get The

@@ -5,12 +5,12 @@ pubDate: "Sep 06 2024"
 heroImage: "../../assets/thumbnails/HBECSvK0c-I.jpg"
 videoId: "HBECSvK0c-I"
 videoUrl: "https://www.youtube.com/watch?v=HBECSvK0c-I"
-colorLeft: "#d1c961"
-colorRight: "#d19d61"
-colorCenter: "#bf5231"
-colorLeftBottom: "#2e9e86"
-colorCenterBottom: "#9e742e"
-colorRightBottom: "#9e722e"
+colorLeft: "#d1c561"
+colorRight: "#d1b261"
+colorCenter: "#d18b61"
+colorLeftBottom: "#2e9e89"
+colorCenterBottom: "#2e9e84"
+colorRightBottom: "#2e9e9b"
 ---
 
 there's something about the story of

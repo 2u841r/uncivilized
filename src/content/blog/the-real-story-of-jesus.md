@@ -5,12 +5,12 @@ pubDate: "Dec 23 2024"
 heroImage: "../../assets/thumbnails/d4kKaBwILU8.jpg"
 videoId: "d4kKaBwILU8"
 videoUrl: "https://www.youtube.com/watch?v=d4kKaBwILU8"
-colorLeft: "#a4712d"
-colorRight: "#ac7832"
-colorCenter: "#c28138"
-colorLeftBottom: "#9e652e"
-colorCenterBottom: "#9e672e"
-colorRightBottom: "#9e672e"
+colorLeft: "#a3702b"
+colorRight: "#ae7932"
+colorCenter: "#c6873c"
+colorLeftBottom: "#a2612a"
+colorCenterBottom: "#b42918"
+colorRightBottom: "#a2642a"
 ---
 
 [Music]
