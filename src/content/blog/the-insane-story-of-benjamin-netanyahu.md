@@ -13,4 +13,226 @@ colorCenterBottom: "#d19a61"
 colorRightBottom: "#dca056"
 ---
 
-Narcissistic, authoritarian, and psychopathic. These observations were made by Israeli psychologists who spent years studying Benjamin Netanyahu's behavior. What a lie. But he is a walking contradiction. He is hated. He didn't have that many friends. He lies left and right. And he knows how to manipulate. Has a messianic notion of himself. But also worshipped. He's a great leader. I think he's a leader of historic proportions. I think he's the greatest statesman we've had. So who is Netanyahu? What are the forces that shaped him? And what is the psychology of a man who thinks he can do anything he wants? If you know Hebrew: kam lo oregcha, hashkem lo orgo. Kill them first. Many will have you believe he's an outlier in Israel, an Israeli prime minister gone astray. But over the next three chapters, I'm going to show you why Netanyahu isn't the exception. He's the rule. ## The Father and the Family Myth Benjamin Netanyahu's story begins long before he was born. It begins with his father. Benzion was born in Warsaw to Rabbi Nathan Mileikowsky. When they arrived in Palestine as settlers, they changed their name to Netanyahu. Benzion became a historian of medieval Jewry and the Spanish Inquisition. He believed that Jewish history was in large measure a history of Holocausts. He sees a world that is fundamentally hostile, a world that is afflicted by an eternal anti-Semitism, that the Nazi Holocaust was part of a long series of acts against Jews. There will always be a hostile world that would not care about the security and welfare of the Jewish nation. One thing that we should do is do it ourselves. It was a worldview passed on to Bibi and his brothers. A sense of fear and anxiety that is a core feature of Zionism and Israeli identity. We know who our enemy is, and we know that they are out to get us. These people here, they want to annihilate us. The Israelis have to take over, and they have to kick them away. We have to kill them. If you know Hebrew: kam lo oregcha, hashkem lo orgo. Kill them first. And we will not have a second Holocaust. But Benzion passed down more than his perpetual victimhood to Benjamin. He passed down a family mythology, a story that the Netanyahus played a central role in the Zionist movement, even though both Nathan and Benzion were nothing more than footnotes of history. So, your family history in the state of Israel is amazing. It goes back several generations at this point, and it really starts with your father, who was deeply involved in the Zionist movement. Benzion was a low-level, inconsequential aide to Ze'ev Jabotinsky. But that didn't stop the lore. The family believed it was destined to shape the future of the Zionist project. The brothers were told it was up to them to protect Israel. They're out to get us. They might kill us. Israel is fragile. My role is to save this people who are, like, childish. They don't understand history and world politics. And my role is to try to save them from their own mistakes and from these terribly demonic, evil forces that surround us. This is basically the Netanyahu Gestalt. Bibi's sense of destiny as the only protector of Israel, and as the man uniquely positioned to carry out the Zionist project, doesn't come from a vacuum. It comes from an environment that was steeped in lore of grandiosity and exceptionalism, all of which was built on empty tales. I think he's convinced that only he can save Israel. Do you think that the Jews are the chosen people? Yeah, of course. Okay. God gave us Israel, all of it. We are the people of the light, they are the people of darkness. If Jews and Israel are the chosen people, then Bibi feels like the chosen one. Benzion's intellectual influence on Bibi didn't stop there. He was part of Revisionist Zionism, which was inspired by Italian fascism and preached that Palestine could only be colonized through overwhelming force, because the indigenous Palestinians would never willingly accept their dispossession. They believed in the vision of Greater Israel. So your dream is an Israel stretching from the Euphrates to the Nile? So it's not my dream, it's a promise that we got, like, from Abraham. I believe that Abraham is my great-great-grandfather. An extraordinary change, a monumental change, another pivot of history. And there's one final shadow hanging over Benjamin Netanyahu's life: his older brother, Yoni. They had a strong friendship, but admiration from Bibi to Yoni. He didn't have that many friends. And I was like, why is it that always people approach me, and Bibi said that he doesn't, and everybody says the same. But it's because he didn't have that many close friends, ever. Yeah, he was like the star of the family. The father and the mother didn't ignore it. They were very much into admiration of strength and power. A soldier whose death turned him into a national icon in Israel, and left Benjamin spending the rest of his life trying to live up to both his father's expectations and his brother's legacy. This is Benjamin Netanyahu's political lineage. Now mix this with a father that was distant, conservative, demanding, and notoriously difficult to impress. Bibi spent much of his childhood chasing a father's approval that always seemed just out of reach. Even after becoming Prime Minister, Benzion dismissed the achievement, saying his son was better suited to be foreign minister. So we have a son of colonial fascism, a perpetual victim vying for paternal legitimacy, who is imbued with a sense of entitlement and destiny. Similarly, with the creation of the state of Israel, Zionism became about vying for legitimacy, international acceptance, and the fulfillment of a fantasy of the Jewish people's historic destiny to return to their promised land. This incendiary cocktail of familial, social, and political forces has in part produced the man and the state we see today. A man wanted by the International Criminal Court for war crimes and genocide. But to understand the other parts of Benjamin Netanyahu, you need to leave this settler colony and go to another one: America. ## America Netanyahu did an end run around President Obama today. Thank you, America. Thank you. With even some Democratic supporters of the president. Benjamin Netanyahu is as much American as he is Israeli. He spent much of his youth and adulthood in the US, at one point changing his name to Ben Nitai to assimilate. He attended elementary school in New York, high school in suburban Philadelphia. He picked up flawless American English. He's so American. When you have a conversation with Netanyahu, he really gets engaged in it. He switches from Hebrew to English. And Bibi truly admires America: the American culture, the American language, everything about America. He was attracted to American culture and ideas over Israeli ones, especially those of the American conservative movement. For example, he was in support of the Vietnam War, furious at how so many Americans were so anti-establishment. What he hated even more was how radical many American Jews were. I had always been brought up, as part of my Jewish upbringing, that Jews are not safe unless everybody's safe. Jews are free unless everybody else is free. Netanyahu was enamored with the US empire. See, many of the early Zionist movement and settler colony leaders were steeped in the European colonial tradition. And so was Netanyahu. But he came of age during the height of American imperialism, one built on military dominance, capitalism, media, and the language of American exceptionalism. The Zionist project was also entering a new phase, one increasingly defined by territorial expansion, military power, and the pursuit of regional dominance. These are the beginnings of Benjamin Netanyahu's career. Look, I'm 28 years old. I've had to defend my country in two wars and in many battles. Nobody wants peace more than Israel. But the stumbling block on the road to peace is this demand for a PLO state, which will mean more war, which will mean more violence in the Middle East, the destruction of people who surround us. Yes, I believe we should fight for our survival. If I have to, I'll fight again, but I hope not to. Thank you. Thank you, Mr. Edelman. ## The Television Performer As a diplomat in Washington, D.C. and then the United Nations, he learned to master television, to talk in memorable sound bites, and to communicate to a Western audience. Continue a war of extermination against us. So, for two reasons: the fact that they're terrorists, and the fact that they seek our destruction, I don't think they're a partner to negotiation. With American targets or Western targets or what they call the Zionist imperialist conspiracy. Does Israel have nuclear capabilities and nuclear weapons? Yes or no? We've always said that we won't be the first to introduce it, so we haven't introduced it. But that's not an answer to the question. Do you have them or do you not? It's as good an answer as you're going to get. Talk down, don't talk up. Talk to them from your heart. Acknowledge and believe that you are a person of intelligence and authority. Believe you have something of value to say. Before he became Prime Minister, Netanyahu was regularly appearing on American television as one of Israel's most recognizable spokesmen, defending war crimes with the confidence and polish of an American politician. His performances on television used to be masterpieces. You don't surrender. Whatever you do, you don't surrender to these killers. Follow me. He has a perfect American accent, what he thinks is a fingertip feel for American sensibilities and touchstones. And he's great for CNN. The idea of Bibi being a performer on television goes way back. You represent your country, you sell your country. And in Ronald Reagan's America, Netanyahu was a rising star. Benjamin Netanyahu begins his Israeli political career in the United States. He's unknown in Israel in the 1980s. He's already a celebrity with the Jewish right in the United States. He cultivated from the outset Jewish rich people, Jewish millionaires, who would pay almost any sum at the time to be near him, and to sort of get a whiff of his, what's it called, stardust. ## The Lies He understood the power of controlling the narrative in the world of modern politics. For Bibi, it is marketing over substance, and he is willing to say anything to remain in power. He lies left and right. Bibi lies left and right. For him, a lie is not something bad. Seriously. And he doesn't feel any problem with that. If not stopped, Iran could produce a nuclear weapon in a very short time. It could be a year, it could be within a few months. They have the wherewithal, the stored-up, preserved knowledge to make a bomb very quickly if they wanted to do it. Iran is so dangerous, weeks away from having the fissile material for an entire arsenal of nuclear bombs. They're very close. They're 6 months away from being about 90% of having the enriched uranium for an atom bomb. Iran is gearing up to produce 25 atomic bombs a year. 250 bombs in a decade. Ladies and gentlemen, time is running out. Iran will be capable of producing, alone, without importing anything, nuclear bombs within 3 to 5 years. Netanyahu is lying as he believes it. And he sometimes lies just to protect his reputation as a liar, without even any apparent reason. Nicolas Sarkozy called Benjamin Netanyahu a liar during a conversation with US President Barack Obama. Mr. Obama replied by saying, "You may be sick of him, but I have to deal with him every day." People consider him a liar, vain, manipulative, and a narcissist. The focus on kind of stealing the show, making himself the center of attention, was new in Israeli life. When he first met President Bill Clinton in the 1990s, Clinton left the meeting furious, saying, "Who the [ __ ] does he think he is? And who's the [ __ ] superpower here?" And that wasn't an over-exaggeration. Netanyahu has always believed he could play America to his tune. Don't want to hear [ __ ] about Netanyahu. I'm messing you. I was telling you. I told you. But he could even challenge American presidents and win. This was a departure from previous Israeli prime ministers before Netanyahu. The Prime Minister of Israel. He made a grand entrance usually reserved for American presidents. And then the Israeli Prime Minister delivered a blistering assault on President Obama's Iran policy and his attempt to strike a nuclear deal with Iran. It didn't happen. Everybody knows it happened. I've never seen a foreign leader speak to the president like that. Outrageous. He is so convinced that he's right, equally so convinced that Obama is dead wrong. It's rare that somebody comes and says your president is wrong, and you, the Congress, in effect, must stop. There was no other time when the Israeli Prime Minister let himself be so deeply involved in American politics, recruiting, redrafting American politics against the American president. And then he enlisted AIPAC, the powerful American Israel Public Affairs Committee, to go on the attack. From the war in Iraq to the war in Iran to genocide in Palestine: Netanyahu, along with his American advisers and the Israel lobby, has been a key architect in shaping and directing American foreign policy for the last 30 years. It sometimes begs the question: who's the client state and who's the patron? But perhaps the relationship feels so blurred because Netanyahu is as much American as he is Israeli. May God bless the state of Israel, and may God bless the United States of America. And he is now the embodiment of the settler colony he leads. Those are the words of Netanyahu's wife, Sara. Over the last three decades, the line between the man and the state has disappeared. ## The Indictment and the Forever War Netanyahu's political brand was created in no small part due to his opposition to the Oslo Accords. The Israeli Prime Minister, Yitzhak Rabin, the architect of the Middle East peace process, has been assassinated. The assassin, a right-wing Israeli Jew, Yigal Amir. Outside the hospital, the crowd began to chant, "Bibi is a murderer." Benjamin Bibi Netanyahu, 46, thrice-married father of three, right-wing politician, and now Israeli Prime Minister. Israeli Prime Minister Benjamin Netanyahu is celebrating a big election victory. Netanyahu, of the Likud, will move back into the prime minister's residence in Jerusalem for a sixth time. He only left it 16 months ago. In fact, he's held power almost uninterrupted for the last 20 years or so. Yeah, a generation has grown up here thinking that the words prime minister and Benjamin Netanyahu are basically synonymous. Around 2015, something changed. It felt like he doesn't need to give any explanation to anybody, almost like a Caesar. And we need to obey the rules, not of the kingdom, but of his majesty. The most powerful leader that Israel has ever had. A day in which the attorney general decides to serve an indictment against the seated prime minister, for serious crimes of corrupt governance, is a heavy and sad day for the Israeli public. To fully understand the chaos in the region, one has to look back at the prime minister's legal predicament. The corruption trial became a dominant factor in his decision-making. He is willing to do what it takes in order to stay in power. Bibi has survived so many things, he could conceivably even survive the worst breach of Israeli security and sovereignty in the history of the country since independence. A forever war is beneficial to Netanyahu. This makes people feel like they are always in danger, like they always need him. He is a great politician, and he has understood the DNA of the Israeli public. He understands: we have to look him in the eye, and you have to say, "I'll keep you safe." At first, Netanyahu presented himself as Israel's protector. And then, as its indispensable leader. Eventually, those two ideas became inseparable. His political survival became Israel's survival. His enemies became Israel's enemies. And criticism of Benjamin Netanyahu increasingly became criticism of the state itself. To become Prime Minister at the age that he did, to exceed the founding father, Ben-Gurion, in the duration of his premiership, he reached heights beyond anyone else. But his moral flaws turned it all upside down. When you do something wrong, and you get away with it once, and twice, and three times, and 10 times, and 20 times, you're beginning to think that you are immune, that nothing will touch you. It came to the point of what the French are saying: "L'état, c'est moi." The country is me. Has a messianic notion of himself, a sick person called to save the Jewish people. ## The Man and the State Remember, his father taught him that everyone else was naive, that only they understood history. And Benjamin Netanyahu never abandoned that worldview. He simply expanded it, and it was no longer just the Netanyahu family that was under siege. It was Israel itself. The United Nations, the International Criminal Court, the media, political opponents, and even protesters weren't simply people who disagreed with him. They became proof that Israel was surrounded by enemies who simply failed to understand its reality. As Netanyahu became more authoritarian and expansionist, the democratic facade of the Israeli state and its legitimacy globally began to crack alongside it. Was Netanyahu destroying Israel, or simply exposing the colonial fragility at the heart of the Zionist project itself? This is where the psychology of Benjamin Netanyahu and the psychology of Israel are one. Zionism was built on the belief that only overwhelming strength could guarantee Jewish survival, that the world would always misunderstand the Jewish people, that no one else could be trusted with their security. Being the narcissistic psychopath that he is, Netanyahu simply internalized those beliefs and placed himself at their center. The message gradually became clear. Only Netanyahu understood the Palestinians. Only Netanyahu understood Iran. Only Netanyahu could stand up to and manipulate American presidents. And only Netanyahu could protect Israel. See, the ideology never changed. Only the subject did. And this is the important truth. Benjamin Netanyahu isn't the only disease, he's just a symptom, a product of Zionism whose colonial logic, siege mentality, and sense of historical destiny are the norm in Israel. The Jewish people have the right to the land of Israel. It is mentioned over a dozen times in the Tanakh, the Hebrew Bible. This is a deed to our land. They want to erase Israel. This body reeks of anti-Semitism. It's everywhere. The UN cares nothing for Israeli blood. Nothing. Nothing. Zero. It is a collaborator with the Nazis of our day. The decision of the International Court to open an investigation against Israel today for war crimes is absurd. It's undiluted. Perhaps that is why so many people struggle to separate Benjamin Netanyahu from the country he leads. Not because he ruled for longer than anyone else, but because the fears, myths, siege mentality, exceptionalism, and sense of historical destiny that shaped Benjamin Netanyahu were never uniquely his. They were the same forces that shaped modern Israel. Netanyahu didn't invent them. He inherited them, refined them, and eventually came to embody them. Which brings us back to where we began. Many people will tell you that Benjamin Netanyahu is an aberration, an Israeli prime minister who lost his way. But perhaps they misunderstood the relationship. Benjamin Netanyahu isn't the exception. He is the logical culmination of the political culture that produced him. He didn't become Israel because he governed it. He became Israel because the forces that shaped the man are the same as the state itself.
+Narcissistic, authoritarian, and psychopathic.
+
+These observations were made by Israeli psychologists who spent years studying Benjamin Netanyahu's behavior.
+
+What a lie. But he is a walking contradiction. He is hated. He didn't have that many friends. He lies left and right. And he knows how to manipulate.
+
+Has a messianic notion of himself. But also worshipped. He's a great leader. I think he's a leader of historic proportions. I think he's the greatest statesman we've had.
+
+So who is Netanyahu? What are the forces that shaped him? And what is the psychology of a man who thinks he can do anything he wants?
+
+If you know Hebrew: kam lo oregcha, hashkem lo orgo. Kill them first. Many will have you believe he's an outlier in Israel, an Israeli prime minister gone astray. But over the next three chapters, I'm going to show you why Netanyahu isn't the exception. He's the rule.
+
+## The Father and the Family Myth
+
+Benjamin Netanyahu's story begins long before he was born. It begins with his father.
+
+Benzion was born in Warsaw to Rabbi Nathan Mileikowsky. When they arrived in Palestine as settlers, they changed their name to Netanyahu.
+
+Benzion became a historian of medieval Jewry and the Spanish Inquisition. He believed that Jewish history was in large measure a history of Holocausts.
+
+He sees a world that is fundamentally hostile, a world that is afflicted by an eternal anti-Semitism, that the Nazi Holocaust was part of a long series of acts against Jews.
+
+There will always be a hostile world that would not care about the security and welfare of the Jewish nation. One thing that we should do is do it ourselves.
+
+It was a worldview passed on to Bibi and his brothers. A sense of fear and anxiety that is a core feature of Zionism and Israeli identity.
+
+We know who our enemy is, and we know that they are out to get us. These people here, they want to annihilate us. The Israelis have to take over, and they have to kick them away. We have to kill them.
+
+If you know Hebrew: kam lo oregcha, hashkem lo orgo. Kill them first. And we will not have a second Holocaust.
+
+But Benzion passed down more than his perpetual victimhood to Benjamin. He passed down a family mythology, a story that the Netanyahus played a central role in the Zionist movement, even though both Nathan and Benzion were nothing more than footnotes of history.
+
+So, your family history in the state of Israel is amazing. It goes back several generations at this point, and it really starts with your father, who was deeply involved in the Zionist movement.
+
+Benzion was a low-level, inconsequential aide to Ze'ev Jabotinsky. But that didn't stop the lore. The family believed it was destined to shape the future of the Zionist project.
+
+The brothers were told it was up to them to protect Israel. They're out to get us. They might kill us. Israel is fragile. My role is to save this people who are, like, childish. They don't understand history and world politics. And my role is to try to save them from their own mistakes and from these terribly demonic, evil forces that surround us.
+
+This is basically the Netanyahu Gestalt. Bibi's sense of destiny as the only protector of Israel, and as the man uniquely positioned to carry out the Zionist project, doesn't come from a vacuum. It comes from an environment that was steeped in lore of grandiosity and exceptionalism, all of which was built on empty tales.
+
+I think he's convinced that only he can save Israel. Do you think that the Jews are the chosen people? Yeah, of course. Okay. God gave us Israel, all of it. We are the people of the light, they are the people of darkness. If Jews and Israel are the chosen people, then Bibi feels like the chosen one.
+
+Benzion's intellectual influence on Bibi didn't stop there. He was part of Revisionist Zionism, which was inspired by Italian fascism and preached that Palestine could only be colonized through overwhelming force, because the indigenous Palestinians would never willingly accept their dispossession. They believed in the vision of Greater Israel.
+
+So your dream is an Israel stretching from the Euphrates to the Nile? So it's not my dream, it's a promise that we got, like, from Abraham. I believe that Abraham is my great-great-grandfather.
+
+An extraordinary change, a monumental change, another pivot of history.
+
+And there's one final shadow hanging over Benjamin Netanyahu's life: his older brother, Yoni. They had a strong friendship, but admiration from Bibi to Yoni. He didn't have that many friends.
+
+And I was like, why is it that always people approach me, and Bibi said that he doesn't, and everybody says the same. But it's because he didn't have that many close friends, ever.
+
+Yeah, he was like the star of the family. The father and the mother didn't ignore it. They were very much into admiration of strength and power.
+
+A soldier whose death turned him into a national icon in Israel, and left Benjamin spending the rest of his life trying to live up to both his father's expectations and his brother's legacy.
+
+This is Benjamin Netanyahu's political lineage. Now mix this with a father that was distant, conservative, demanding, and notoriously difficult to impress. Bibi spent much of his childhood chasing a father's approval that always seemed just out of reach.
+
+Even after becoming Prime Minister, Benzion dismissed the achievement, saying his son was better suited to be foreign minister.
+
+So we have a son of colonial fascism, a perpetual victim vying for paternal legitimacy, who is imbued with a sense of entitlement and destiny.
+
+Similarly, with the creation of the state of Israel, Zionism became about vying for legitimacy, international acceptance, and the fulfillment of a fantasy of the Jewish people's historic destiny to return to their promised land.
+
+This incendiary cocktail of familial, social, and political forces has in part produced the man and the state we see today. A man wanted by the International Criminal Court for war crimes and genocide.
+
+But to understand the other parts of Benjamin Netanyahu, you need to leave this settler colony and go to another one: America.
+
+## America
+
+Netanyahu did an end run around President Obama today. Thank you, America. Thank you. With even some Democratic supporters of the president.
+
+Benjamin Netanyahu is as much American as he is Israeli. He spent much of his youth and adulthood in the US, at one point changing his name to Ben Nitai to assimilate.
+
+He attended elementary school in New York, high school in suburban Philadelphia. He picked up flawless American English. He's so American.
+
+When you have a conversation with Netanyahu, he really gets engaged in it. He switches from Hebrew to English. And Bibi truly admires America: the American culture, the American language, everything about America.
+
+He was attracted to American culture and ideas over Israeli ones, especially those of the American conservative movement. For example, he was in support of the Vietnam War, furious at how so many Americans were so anti-establishment.
+
+What he hated even more was how radical many American Jews were. I had always been brought up, as part of my Jewish upbringing, that Jews are not safe unless everybody's safe. Jews are free unless everybody else is free.
+
+Netanyahu was enamored with the US empire. See, many of the early Zionist movement and settler colony leaders were steeped in the European colonial tradition. And so was Netanyahu.
+
+But he came of age during the height of American imperialism, one built on military dominance, capitalism, media, and the language of American exceptionalism.
+
+The Zionist project was also entering a new phase, one increasingly defined by territorial expansion, military power, and the pursuit of regional dominance.
+
+These are the beginnings of Benjamin Netanyahu's career. Look, I'm 28 years old. I've had to defend my country in two wars and in many battles.
+
+Nobody wants peace more than Israel. But the stumbling block on the road to peace is this demand for a PLO state, which will mean more war, which will mean more violence in the Middle East, the destruction of people who surround us.
+
+Yes, I believe we should fight for our survival. If I have to, I'll fight again, but I hope not to. Thank you. Thank you, Mr. Edelman.
+
+## The Television Performer
+
+As a diplomat in Washington, D.C. and then the United Nations, he learned to master television, to talk in memorable sound bites, and to communicate to a Western audience.
+
+Continue a war of extermination against us. So, for two reasons: the fact that they're terrorists, and the fact that they seek our destruction, I don't think they're a partner to negotiation.
+
+With American targets or Western targets or what they call the Zionist imperialist conspiracy.
+
+Does Israel have nuclear capabilities and nuclear weapons? Yes or no? We've always said that we won't be the first to introduce it, so we haven't introduced it. But that's not an answer to the question. Do you have them or do you not? It's as good an answer as you're going to get.
+
+Talk down, don't talk up. Talk to them from your heart. Acknowledge and believe that you are a person of intelligence and authority. Believe you have something of value to say.
+
+Before he became Prime Minister, Netanyahu was regularly appearing on American television as one of Israel's most recognizable spokesmen, defending war crimes with the confidence and polish of an American politician.
+
+His performances on television used to be masterpieces. You don't surrender. Whatever you do, you don't surrender to these killers. Follow me.
+
+He has a perfect American accent, what he thinks is a fingertip feel for American sensibilities and touchstones. And he's great for CNN.
+
+The idea of Bibi being a performer on television goes way back. You represent your country, you sell your country. And in Ronald Reagan's America, Netanyahu was a rising star.
+
+Benjamin Netanyahu begins his Israeli political career in the United States. He's unknown in Israel in the 1980s. He's already a celebrity with the Jewish right in the United States.
+
+He cultivated from the outset Jewish rich people, Jewish millionaires, who would pay almost any sum at the time to be near him, and to sort of get a whiff of his, what's it called, stardust.
+
+## The Lies
+
+He understood the power of controlling the narrative in the world of modern politics. For Bibi, it is marketing over substance, and he is willing to say anything to remain in power.
+
+He lies left and right. Bibi lies left and right. For him, a lie is not something bad. Seriously. And he doesn't feel any problem with that.
+
+If not stopped, Iran could produce a nuclear weapon in a very short time. It could be a year, it could be within a few months. They have the wherewithal, the stored-up, preserved knowledge to make a bomb very quickly if they wanted to do it.
+
+Iran is so dangerous, weeks away from having the fissile material for an entire arsenal of nuclear bombs.
+
+They're very close. They're 6 months away from being about 90% of having the enriched uranium for an atom bomb.
+
+Iran is gearing up to produce 25 atomic bombs a year. 250 bombs in a decade. Ladies and gentlemen, time is running out. Iran will be capable of producing, alone, without importing anything, nuclear bombs within 3 to 5 years.
+
+Netanyahu is lying as he believes it. And he sometimes lies just to protect his reputation as a liar, without even any apparent reason.
+
+Nicolas Sarkozy called Benjamin Netanyahu a liar during a conversation with US President Barack Obama. Mr. Obama replied by saying, "You may be sick of him, but I have to deal with him every day."
+
+People consider him a liar, vain, manipulative, and a narcissist. The focus on kind of stealing the show, making himself the center of attention, was new in Israeli life.
+
+When he first met President Bill Clinton in the 1990s, Clinton left the meeting furious, saying, "Who the [ __ ] does he think he is? And who's the [ __ ] superpower here?" And that wasn't an over-exaggeration.
+
+Netanyahu has always believed he could play America to his tune. Don't want to hear [ __ ] about Netanyahu. I'm messing you. I was telling you. I told you.
+
+But he could even challenge American presidents and win. This was a departure from previous Israeli prime ministers before Netanyahu.
+
+The Prime Minister of Israel. He made a grand entrance usually reserved for American presidents. And then the Israeli Prime Minister delivered a blistering assault on President Obama's Iran policy and his attempt to strike a nuclear deal with Iran. It didn't happen. Everybody knows it happened. I've never seen a foreign leader speak to the president like that. Outrageous. He is so convinced that he's right, equally so convinced that Obama is dead wrong.
+
+It's rare that somebody comes and says your president is wrong, and you, the Congress, in effect, must stop.
+
+There was no other time when the Israeli Prime Minister let himself be so deeply involved in American politics, recruiting, redrafting American politics against the American president. And then he enlisted AIPAC, the powerful American Israel Public Affairs Committee, to go on the attack.
+
+From the war in Iraq to the war in Iran to genocide in Palestine: Netanyahu, along with his American advisers and the Israel lobby, has been a key architect in shaping and directing American foreign policy for the last 30 years.
+
+It sometimes begs the question: who's the client state and who's the patron? But perhaps the relationship feels so blurred because Netanyahu is as much American as he is Israeli.
+
+May God bless the state of Israel, and may God bless the United States of America. And he is now the embodiment of the settler colony he leads.
+
+Those are the words of Netanyahu's wife, Sara. Over the last three decades, the line between the man and the state has disappeared.
+
+## The Indictment and the Forever War
+
+Netanyahu's political brand was created in no small part due to his opposition to the Oslo Accords.
+
+The Israeli Prime Minister, Yitzhak Rabin, the architect of the Middle East peace process, has been assassinated. The assassin, a right-wing Israeli Jew, Yigal Amir.
+
+Outside the hospital, the crowd began to chant, "Bibi is a murderer."
+
+Benjamin Bibi Netanyahu, 46, thrice-married father of three, right-wing politician, and now Israeli Prime Minister. Israeli Prime Minister Benjamin Netanyahu is celebrating a big election victory.
+
+Netanyahu, of the Likud, will move back into the prime minister's residence in Jerusalem for a sixth time. He only left it 16 months ago.
+
+In fact, he's held power almost uninterrupted for the last 20 years or so. Yeah, a generation has grown up here thinking that the words prime minister and Benjamin Netanyahu are basically synonymous.
+
+Around 2015, something changed. It felt like he doesn't need to give any explanation to anybody, almost like a Caesar. And we need to obey the rules, not of the kingdom, but of his majesty.
+
+The most powerful leader that Israel has ever had. A day in which the attorney general decides to serve an indictment against the seated prime minister, for serious crimes of corrupt governance, is a heavy and sad day for the Israeli public.
+
+To fully understand the chaos in the region, one has to look back at the prime minister's legal predicament. The corruption trial became a dominant factor in his decision-making. He is willing to do what it takes in order to stay in power.
+
+Bibi has survived so many things, he could conceivably even survive the worst breach of Israeli security and sovereignty in the history of the country since independence.
+
+A forever war is beneficial to Netanyahu. This makes people feel like they are always in danger, like they always need him. He is a great politician, and he has understood the DNA of the Israeli public.
+
+He understands: we have to look him in the eye, and you have to say, "I'll keep you safe."
+
+At first, Netanyahu presented himself as Israel's protector. And then, as its indispensable leader. Eventually, those two ideas became inseparable. His political survival became Israel's survival. His enemies became Israel's enemies. And criticism of Benjamin Netanyahu increasingly became criticism of the state itself.
+
+To become Prime Minister at the age that he did, to exceed the founding father, Ben-Gurion, in the duration of his premiership, he reached heights beyond anyone else. But his moral flaws turned it all upside down.
+
+When you do something wrong, and you get away with it once, and twice, and three times, and 10 times, and 20 times, you're beginning to think that you are immune, that nothing will touch you.
+
+It came to the point of what the French are saying: "L'état, c'est moi." The country is me. Has a messianic notion of himself, a sick person called to save the Jewish people.
+
+## The Man and the State
+
+Remember, his father taught him that everyone else was naive, that only they understood history. And Benjamin Netanyahu never abandoned that worldview. He simply expanded it, and it was no longer just the Netanyahu family that was under siege. It was Israel itself.
+
+The United Nations, the International Criminal Court, the media, political opponents, and even protesters weren't simply people who disagreed with him. They became proof that Israel was surrounded by enemies who simply failed to understand its reality.
+
+As Netanyahu became more authoritarian and expansionist, the democratic facade of the Israeli state and its legitimacy globally began to crack alongside it. Was Netanyahu destroying Israel, or simply exposing the colonial fragility at the heart of the Zionist project itself?
+
+This is where the psychology of Benjamin Netanyahu and the psychology of Israel are one. Zionism was built on the belief that only overwhelming strength could guarantee Jewish survival, that the world would always misunderstand the Jewish people, that no one else could be trusted with their security.
+
+Being the narcissistic psychopath that he is, Netanyahu simply internalized those beliefs and placed himself at their center.
+
+The message gradually became clear. Only Netanyahu understood the Palestinians. Only Netanyahu understood Iran. Only Netanyahu could stand up to and manipulate American presidents. And only Netanyahu could protect Israel.
+
+See, the ideology never changed. Only the subject did. And this is the important truth. Benjamin Netanyahu isn't the only disease, he's just a symptom, a product of Zionism whose colonial logic, siege mentality, and sense of historical destiny are the norm in Israel.
+
+The Jewish people have the right to the land of Israel. It is mentioned over a dozen times in the Tanakh, the Hebrew Bible.
+
+This is a deed to our land. They want to erase Israel. This body reeks of anti-Semitism. It's everywhere.
+
+The UN cares nothing for Israeli blood. Nothing. Nothing. Zero. It is a collaborator with the Nazis of our day.
+
+The decision of the International Court to open an investigation against Israel today for war crimes is absurd. It's undiluted.
+
+Perhaps that is why so many people struggle to separate Benjamin Netanyahu from the country he leads. Not because he ruled for longer than anyone else, but because the fears, myths, siege mentality, exceptionalism, and sense of historical destiny that shaped Benjamin Netanyahu were never uniquely his. They were the same forces that shaped modern Israel.
+
+Netanyahu didn't invent them. He inherited them, refined them, and eventually came to embody them.
+
+Which brings us back to where we began. Many people will tell you that Benjamin Netanyahu is an aberration, an Israeli prime minister who lost his way. But perhaps they misunderstood the relationship.
+
+Benjamin Netanyahu isn't the exception. He is the logical culmination of the political culture that produced him. He didn't become Israel because he governed it. He became Israel because the forces that shaped the man are the same as the state itself.
