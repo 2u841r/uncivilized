@@ -144,3 +144,14 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* View transitions: the default root cross-fade is ~0.2s, which reads as
+   "no transition" (e.g. clicking the header logo back to the home page,
+   where the shared-element morphs are off-screen). Slow the root fade so
+   every client-side navigation visibly animates. */
+@media (prefers-reduced-motion: no-preference) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation-duration: 0.35s;
+	}
+}
