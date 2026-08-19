@@ -106,5 +106,32 @@ const posts = (await getCollection('blog')).sort(
 			</section>
 		</main>
 		<Footer />
+		<script>
+			// Clicking a post link is a fresh navigation (pushState), so
+			// the browser/ClientRouter always start it at the top -
+			// unlike the back button (popstate), which restores scroll
+			// natively. This replicates that "back" feel for the logo
+			// link by manually saving/restoring the homepage scroll
+			// position around view-transition navigations.
+			function restoreHomeScroll() {
+				if (location.pathname !== '/') return;
+				const saved = sessionStorage.getItem('home-scroll-y');
+				if (saved !== null) {
+					window.scrollTo(0, parseInt(saved, 10));
+					sessionStorage.removeItem('home-scroll-y');
+				}
+			}
+			restoreHomeScroll();
+			document.addEventListener('astro:page-load', restoreHomeScroll);
+
+			if (!window.__homeScrollSaveWired) {
+				window.__homeScrollSaveWired = true;
+				document.addEventListener('astro:before-preparation', () => {
+					if (location.pathname === '/') {
+						sessionStorage.setItem('home-scroll-y', String(window.scrollY));
+					}
+				});
+			}
+		</script>
 	</body>
 </html>
