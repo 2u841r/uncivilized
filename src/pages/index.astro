@@ -108,27 +108,46 @@ const posts = (await getCollection('blog')).sort(
 		<Footer />
 		<script>
 			// Clicking a post link is a fresh navigation (pushState), so
-			// the browser/ClientRouter always start it at the top -
-			// unlike the back button (popstate), which restores scroll
-			// natively. This replicates that "back" feel for the logo
-			// link by manually saving/restoring the homepage scroll
-			// position around view-transition navigations.
-			function restoreHomeScroll() {
-				if (location.pathname !== '/') return;
-				const saved = sessionStorage.getItem('home-scroll-y');
-				if (saved !== null) {
-					window.scrollTo(0, parseInt(saved, 10));
-					sessionStorage.removeItem('home-scroll-y');
-				}
-			}
-			restoreHomeScroll();
-			document.addEventListener('astro:page-load', restoreHomeScroll);
+			// the browser/ClientRouter always start it at the top - unlike
+			// the back button (popstate), which already restores scroll
+			// natively/via bfcache. This replicates that "back" feel for the
+			// logo link WITHOUT touching real back navigations: only act
+			// when astro:before-preparation reports direction "forward" (an
+			// actual link click), never "back" - otherwise this clobbers the
+			// native restoration that already works for the browser's back
+			// button.
+			//
+			// Everything lives on window and is wired exactly once, since this
+			// script tag re-runs on every swap-in of this page (view
+			// transitions), not just the first load.
+			if (!window.__homeScrollWired) {
+				window.__homeScrollWired = true;
+				window.__homeLastScrollY = window.scrollY;
 
-			if (!window.__homeScrollSaveWired) {
-				window.__homeScrollSaveWired = true;
-				document.addEventListener('astro:before-preparation', () => {
-					if (location.pathname === '/') {
-						sessionStorage.setItem('home-scroll-y', String(window.scrollY));
+				// tracked continuously, not read lazily at before-preparation
+				// time, since the transition can already be mid-scroll-reset by
+				// the time that event fires
+				window.addEventListener(
+					'scroll',
+					() => {
+						window.__homeLastScrollY = window.scrollY;
+					},
+					{ passive: true },
+				);
+
+				document.addEventListener('astro:before-preparation', (event) => {
+					window.__lastNavWasForward = event.direction === 'forward';
+					if (location.pathname === '/' && event.direction === 'forward') {
+						sessionStorage.setItem('home-scroll-y', String(window.__homeLastScrollY));
+					}
+				});
+
+				document.addEventListener('astro:page-load', () => {
+					if (location.pathname !== '/' || !window.__lastNavWasForward) return;
+					const saved = sessionStorage.getItem('home-scroll-y');
+					if (saved !== null) {
+						window.scrollTo(0, parseInt(saved, 10));
+						sessionStorage.removeItem('home-scroll-y');
 					}
 				});
 			}
